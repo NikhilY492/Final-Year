@@ -6,33 +6,34 @@
     "question_type": "time-based",
     "ground_truth_answer": "On 30/03/2024, around 19:27",
     "source_text_snippet": "Bro can u send physics assignment answers?",
-    "num_chunks_in_chat": 5,
+    "num_chunks_in_chat": 910,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.5375341606273908,
-        "semantic_score": 0.4874366521835327,
-        "time_decay": 0.8214200418092532,
-        "chunk_text": "[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes",
+        "score": 0.5346781110072343,
+        "semantic_score": 0.48410648107528687,
+        "time_decay": 0.8212506806216034,
+        "chunk_text": "[30/03/2024 19:27] Sai Dinesh: Bro can u send physics assignment answers?",
         "chunk_id": "CTX-CHUNK-002"
       },
       {
         "rank": 2,
-        "score": 0.2985951191405524,
-        "semantic_score": 0.20576396584510803,
-        "time_decay": 0.8246383211480706,
-        "chunk_text": "[15/04/2024 15:05] You: Did you write the Payable interface for lab?\n[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.36035600511291416,
+        "semantic_score": 0.256618469953537,
+        "time_decay": 0.9482020376827179,
+        "chunk_text": "[10/12/2025 23:25] Sai Dinesh: Imagine I am a novice in these topics explain to me everything in the pdf attached in great detail covering every topic present in it and provide ample examples\nBy the end of your explanation I should be able to understand everything in it such that I score good marks when tested on these topics\nexplain every slide in great detail and covering every point mentioned in it\ncodes you needn't go into full detail and if there are any numericals explain them step by step until the final answer is derived",
+        "chunk_id": "CTX-CHUNK-240"
       },
       {
         "rank": 3,
-        "score": 0.2781522020697594,
-        "semantic_score": 0.15076729655265808,
-        "time_decay": 1.0,
-        "chunk_text": "[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.3568463515982354,
+        "semantic_score": 0.2453693449497223,
+        "time_decay": 0.9885493892731432,
+        "chunk_text": "[08/06/2026 18:22] Sai Dinesh: The critique paper\n[08/06/2026 18:23] Sai Dinesh: 10th deadline\n[08/06/2026 18:23] Sai Dinesh: Yes this only\n[08/06/2026 18:23] Yaoi Man: We have tanmay the documentor\n[08/06/2026 18:23] Yaoi Man: Aeon of documentation\n[08/06/2026 18:23] Sai Dinesh: I will be using this\nShare latex if you have\n[08/06/2026 18:23] Yaoi Man: I only got the pdf ,\n[08/06/2026 18:23] Sai Dinesh: Can you ask him if he can share",
+        "chunk_id": "CTX-CHUNK-641"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": ""
   },
@@ -43,34 +44,35 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 15/04/2024 around 15:08, a Java Invoice/Payable class implementation was shared.",
     "source_text_snippet": "package labsheet6; public interface Payable {...",
-    "num_chunks_in_chat": 5,
+    "num_chunks_in_chat": 910,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.3828154972414245,
-        "semantic_score": 0.30484676361083984,
-        "time_decay": 0.8246383211480706,
-        "chunk_text": "[15/04/2024 15:05] You: Did you write the Payable interface for lab?\n[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.4788080634857684,
+        "semantic_score": 0.40473729372024536,
+        "time_decay": 0.8985424254903986,
+        "chunk_text": "[22/04/2025 21:10] Yaoi Man: Programming profiles i mean\n[22/04/2025 21:10] Sai Dinesh: Leet code I think",
+        "chunk_id": "CTX-CHUNK-113"
       },
       {
         "rank": 2,
-        "score": 0.3658349019422788,
-        "semantic_score": 0.28543752431869507,
-        "time_decay": 0.8214200418092532,
-        "chunk_text": "[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.4443797266338954,
+        "semantic_score": 0.3497123718261719,
+        "time_decay": 0.9808280705443286,
+        "chunk_text": "[05/05/2026 22:25] Yaoi Man: import java.util.*;\npublic class EvalVisitor extends ExprSemBaseVisitor<Object> {\n    Map<String, Object> memory    = new HashMap<>();\n    Map<String, String> typeTable = new HashMap<>();\n    @Override\n    public Object visitDeclaration(ExprSemParser.DeclarationContext ctx) {\n        String type = ctx.type().getText();\n        for (var id : ctx.ID()) {\n            if (typeTable.containsKey(id.getText())) {\n                System.out.println(\"Error: Variable already declared: \" + id.getText());\n            } else {\n                typeTable.put(id.getText(), type);\n            }\n        }\n        return 0;\n    }\n    @Override\n    public Object visitAssign(ExprSemParser.AssignContext ctx) {\n        String id = ctx.ID().getText();\n        // Exercise 6 — Undeclared variable check\n        if (!typeTable.containsKey(id)) {\n            System.out.println(\"Error: Undeclared variable: \" + id);\n            return 0;\n        }\n        Object value = visit(ctx.expr());\n        String declaredType = typeTable.get(id);\n        // Exercise 5 — Type checking\n        if (declaredType.equals(\"int\") && value instanceof Float) {\n            System.out.println(\"Type Error: Cannot assign float to int variable: \" + id);\n            return 0;\n        }\n        if (declaredType.equals(\"char\") && !(value instanceof Character)) {\n            System.out.println(\"Type Error: Cannot assign non-char to char variable: \" + id);\n            return 0;\n        }\n        if (declaredType.equals(\"int\") && value instanceof Character) {\n            System.out.println(\"Type Error: Cannot assign char to int variable: \" + id);\n            return 0;\n        }\n        memory.put(id, value);\n        return value;\n    }\n    @Override\n    public Object visitId(ExprSemParser.IdContext ctx) {\n        String id = ctx.ID().getText();\n        // Exercise 7 — Uninitialized variable check\n        if (!memory.containsKey(id)) {\n            System.out.println(\"Error: Variable not initialized: \" + id);\n            return 0;\n        }\n        return memory.get(id);\n    }\n    @Override\n    public Object visitAddSub(ExprSemParser.AddSubContext ctx) {\n        Object l = visit(ctx.expr(0));\n        Object r = visit(ctx.expr(1));\n        // Exercise 9 — Float support\n        if (l instanceof Float || r instanceof Float) {\n            float lf = toFloat(l), rf = toFloat(r);\n            return ctx.op.getText().equals(\"+\") ? lf + rf : lf - rf;\n        }\n        int li = (int) l, ri = (int) r;\n        return ctx.op.getText().equals(\"+\") ? li + ri : li - ri;\n    }\n    @Override\n    public Object visitMulDiv(ExprSemParser.MulDivContext ctx) {\n        Object l = visit(ctx.expr(0));\n        Object r = visit(ctx.expr(1));\n        if (ctx.op.getText().equals(\"/\") && toFloat(r) == 0) {\n            System.out.println(\"Error: Division by zero\");\n            return 0;\n        }\n        // Exercise 9 — Float support\n        if (l instanceof Float || r instanceof Float) {\n            float lf = toFloat(l), rf = toFloat(r);\n            switch (ctx.op.getText()) {\n                case \"*\": return lf * rf;\n                case \"/\": return lf / rf;\n                case \"%\": return lf % rf;\n            }\n        }\n        int li = (int) l, ri = (int) r;\n        switch (ctx.op.getText()) {\n            case \"*\": return li * ri;\n            case \"/\": return li / ri;\n            case \"%\": return li % ri;  // Exercise 8 — Modulus\n        }\n        return 0;\n    }\n    @Override\n    public Object visitUnaryMinus(ExprSemParser.UnaryMinusContext ctx) {\n        Object val = visit(ctx.expr());\n        if (val instanceof Float) return -(Float) val;\n        return -(int) val;\n    }\n    @Override\n    public Object visitParens(ExprSemParser.ParensContext ctx) {\n        return visit(ctx.expr());\n    }\n    // Exercise 9 — NUMBER now handles decimals\n    @Override\n    public Object visitNumber(ExprSemParser.NumberContext ctx) {\n        String text = ctx.getText();\n        if (text.contains(\".\")) return Float.parseFloat(text);\n        return Integer.parseInt(text);\n    }\n    @Override\n    public Object visitPrintExpr(ExprSemParser.PrintExprContext ctx) {\n        Object value = visit(ctx.expr());\n        System.out.println(\"= \" + value);\n        return 0;\n    }\n    @Override\n    public Object visitCharLiteral(ExprSemParser.CharLiteralContext ctx) {\n    // Strip the surrounding single quotes: 'a' → a\n        String text = ctx.getText();\n        return text.charAt(1);  // returns the char value\n}\n    // Helper: convert int/float/char to float\n    private float toFloat(Object val) {\n        if (val instanceof Float)     return (Float) val;\n        if (val instanceof Character) return (float)(Character) val;\n        return (float)(int) val;\n    }\n}",
+        "chunk_id": "CTX-CHUNK-573"
       },
       {
         "rank": 3,
-        "score": 0.2839784967025992,
-        "semantic_score": 0.18961045145988464,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.42666292794626276,
+        "semantic_score": 0.35056906938552856,
+        "time_decay": 0.8578614597904232,
+        "chunk_text": "[04/10/2024 23:38] Sai Dinesh: https://unstop.com/hackathons/coding-enigma-weskillorg-1173865",
+        "chunk_id": "CTX-CHUNK-043"
       }
     ],
-    "manual_score": "partial",
+    "auto_score": "miss",
+    "manual_score": "miss",
     "notes": "Tests whether retrieval correctly handles a long multi-line code message."
   },
   {
@@ -80,33 +82,34 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "Yaoi Man, sharing a Brawl Stars friend invite link on 17/03/2024 at 13:14.",
     "source_text_snippet": "https://link.brawlstars.com/invite/friend/...",
-    "num_chunks_in_chat": 5,
+    "num_chunks_in_chat": 910,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.4059004010876891,
-        "semantic_score": 0.3330479860305786,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.48213178838974896,
+        "semantic_score": 0.40534937381744385,
+        "time_decay": 0.9172321376328113,
+        "chunk_text": "[20/07/2025 16:53] Sai Dinesh: Bro you can get angelic skins for brawlers you didn't unlock\n[20/07/2025 16:53] Sai Dinesh: Damn",
+        "chunk_id": "CTX-CHUNK-172"
       },
       {
         "rank": 2,
-        "score": 0.266361016780138,
-        "semantic_score": 0.1368953138589859,
-        "time_decay": 1.0,
-        "chunk_text": "[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.4407605659000563,
+        "semantic_score": 0.3457488417625427,
+        "time_decay": 0.979160336012633,
+        "chunk_text": "[28/04/2026 14:12] Sai Dinesh: imma buy the edgar bakugo\n[28/04/2026 14:12] Sai Dinesh: lets hope i have the gems\n[28/04/2026 14:12] Yaoi Man: Who are those guys?\n[28/04/2026 14:12] Yaoi Man: Deku is the mc rut\n[28/04/2026 14:12] Sai Dinesh: mha\n[28/04/2026 14:12] Sai Dinesh: yea\n[28/04/2026 14:12] Yaoi Man: Who is edgar?\n[28/04/2026 14:12] Yaoi Man: Main villain?",
+        "chunk_id": "CTX-CHUNK-551"
       },
       {
         "rank": 3,
-        "score": 0.2110200055822391,
-        "semantic_score": 0.10330235213041306,
-        "time_decay": 0.8214200418092532,
-        "chunk_text": "[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.43667373380272356,
+        "semantic_score": 0.36925190687179565,
+        "time_decay": 0.8187307530779818,
+        "chunk_text": "[17/03/2024 13:14] Yaoi Man: https://link.brawlstars.com/invite/friend/en?tag=900PLRGJQ&token=kwm9k8sc",
+        "chunk_id": "CTX-CHUNK-001"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "partial",
     "notes": ""
   },
@@ -117,33 +120,34 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of a concert found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 5,
+    "num_chunks_in_chat": 910,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.17007183472274512,
-        "semantic_score": 0.05560261383652687,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.33473529654969414,
+        "semantic_score": 0.21919649839401245,
+        "time_decay": 0.9894551527652236,
+        "chunk_text": "[12/06/2026 17:11] Sai Dinesh: Nice music\n[12/06/2026 17:12] Yaoi Man: What happened?\n[12/06/2026 17:12] Sai Dinesh: Nothing\n[12/06/2026 17:12] Sai Dinesh: The music is nice\n[12/06/2026 17:12] Yaoi Man: Was there music in background?\n[12/06/2026 17:12] Sai Dinesh: Yeah\n[12/06/2026 17:12] Yaoi Man: Ye\n[12/06/2026 17:13] Yaoi Man: It was from the web event",
+        "chunk_id": "CTX-CHUNK-703"
       },
       {
         "rank": 2,
-        "score": 0.13871761057525875,
-        "semantic_score": -0.013273399323225021,
-        "time_decay": 1.0,
-        "chunk_text": "[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.3105093288716328,
+        "semantic_score": 0.18920138478279114,
+        "time_decay": 0.9979210120417354,
+        "chunk_text": "[19/07/2026 11:25] Sai Dinesh: Hey there, we're watching The Odyssey (A). Find ticket details and other benefits, here https://bmsurl.co/BMSTNY/OAobgbfGn4",
+        "chunk_id": "CTX-CHUNK-877"
       },
       {
         "rank": 3,
-        "score": 0.08722639763202852,
-        "semantic_score": -0.04233718663454056,
-        "time_decay": 0.8214200418092532,
-        "chunk_text": "[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.28427226673354933,
+        "semantic_score": 0.17506951093673706,
+        "time_decay": 0.9030878829154854,
+        "chunk_text": "[14/05/2025 15:40] Sai Dinesh: Did the delivery guy arrive?",
+        "chunk_id": "CTX-CHUNK-130"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control - system should NOT confidently retrieve/fabricate an answer here."
   },
@@ -154,33 +158,34 @@
     "question_type": "time-based",
     "ground_truth_answer": "The last day for payment was mentioned as being due at 8:00pm on 12/11/2024.",
     "source_text_snippet": "Last day for payment today 8:00pm",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.6051614769507739,
-        "semantic_score": 0.5393921136856079,
-        "time_decay": 0.9778545354533811,
-        "chunk_text": "[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.5382301803710554,
+        "semantic_score": 0.4765271544456482,
+        "time_decay": 0.8878806606150295,
+        "chunk_text": "[12/11/2024 13:29] Sai Dinesh: Last day for payment today 8:00pm",
+        "chunk_id": "CTX-CHUNK-159"
       },
       {
         "rank": 2,
-        "score": 0.30373118817806244,
-        "semantic_score": 0.1808602213859558,
-        "time_decay": 1.0,
-        "chunk_text": "[10/12/2024 10:14] You: Did ma'am recheck your evaluation?\n[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "CTX-CHUNK-006"
+        "score": 0.4568022143650757,
+        "semantic_score": 0.368124783039093,
+        "time_decay": 0.9593076585456441,
+        "chunk_text": "[13/01/2026 15:23] Sai Dinesh: I called ma'am\nNo need to call\n[13/01/2026 15:23] Sai Dinesh: She wanted the payment receipt\n[13/01/2026 15:26] Diddy (Casteist): Okay\n[13/01/2026 15:26] Diddy (Casteist): You sent it?\n[13/01/2026 15:27] Sai Dinesh: Yeah\n[13/01/2026 15:27] Diddy (Casteist): .",
+        "chunk_id": "CTX-CHUNK-735"
       },
       {
         "rank": 3,
-        "score": 0.29831366510239665,
-        "semantic_score": 0.17833015322685242,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.41800321119383876,
+        "semantic_score": 0.32354870438575745,
+        "time_decay": 0.9532454164396332,
+        "chunk_text": "[09/12/2025 15:39] Sai Dinesh: for the 20th deadline one",
+        "chunk_id": "CTX-CHUNK-681"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests exact time-window retrieval."
   },
@@ -191,34 +196,35 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 13/11/2024, Diddy shared a Google STEP Internship 2025 opportunity post addressed to a coding community.",
     "source_text_snippet": "Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community!",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.5298090738162142,
-        "semantic_score": 0.45067769289016724,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.5948734678047348,
+        "semantic_score": 0.5395172238349915,
+        "time_decay": 0.9085588502999472,
+        "chunk_text": "[19/03/2025 15:18] Diddy (Casteist): https://www.linkedin.com/posts/harshith-presents_internship-nestlaez-careergrowth-activity-7308056106499457025-PRH6?utm_source=share&utm_medium=member_android&rcm=ACoAAEW--oUBXKcobP5xZmeM38W-DsdLG91OZJE",
+        "chunk_id": "CTX-CHUNK-335"
       },
       {
         "rank": 2,
-        "score": 0.40514330051434966,
-        "semantic_score": 0.304076611995697,
-        "time_decay": 0.9778545354533811,
-        "chunk_text": "[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.5783427740960387,
+        "semantic_score": 0.5214300155639648,
+        "time_decay": 0.9008484057777906,
+        "chunk_text": "[31/01/2025 14:17] Diddy (Casteist): https://manaschool.in/all-internships-full-schedule-for-2025-with-stipend-of-1-2-lakhs/",
+        "chunk_id": "CTX-CHUNK-262"
       },
       {
         "rank": 3,
-        "score": 0.3373395083479075,
-        "semantic_score": 0.23519907891750336,
-        "time_decay": 0.9161352751201978,
-        "chunk_text": "[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.5561629299934149,
+        "semantic_score": 0.48945847153663635,
+        "time_decay": 0.9341548612484933,
+        "chunk_text": "[19/08/2025 23:43] Diddy (Casteist): https://community.sap.com/t5/career-corner-blog-posts/5-tips-for-your-internship-interview/ba-p/256919",
+        "chunk_id": "CTX-CHUNK-496"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "partial",
     "notes": "Tests retrieval of a forwarded/announcement-style message, not a casual chat line."
   },
   {
@@ -228,33 +234,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Binary search, linear search, bubble sort, merge sort, selection sort, and insertion sort were listed on 06/11/2024.",
     "source_text_snippet": "binary search | linear search | bubble sort | merge sort | selection sort | insertion srt",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.7179876890500804,
-        "semantic_score": 0.6729167103767395,
-        "time_decay": 0.9733899015323452,
-        "chunk_text": "[06/11/2024 20:45] You: Which algorithms are coming for lab exam?\n[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.5598987339026773,
+        "semantic_score": 0.5021811723709106,
+        "time_decay": 0.8869649159160213,
+        "chunk_text": "[06/11/2024 20:47] Sai Dinesh: binary search\nlinear search\nbubble sort\nmerge sort\nselection sort\ninsertion srt",
+        "chunk_id": "CTX-CHUNK-158"
       },
       {
         "rank": 2,
-        "score": 0.35644002184271817,
-        "semantic_score": 0.24287061393260956,
-        "time_decay": 1.0,
-        "chunk_text": "[10/12/2024 10:14] You: Did ma'am recheck your evaluation?\n[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "CTX-CHUNK-006"
+        "score": 0.5288039912026358,
+        "semantic_score": 0.46464020013809204,
+        "time_decay": 0.8923988072350505,
+        "chunk_text": "[10/12/2024 13:37] Sai Dinesh: Dsa\n[10/12/2024 13:37] Diddy (Casteist): Dates?\n[10/12/2024 13:38] Sai Dinesh: I'll ask only lab exam right?\n[10/12/2024 13:38] Diddy (Casteist): Yupp\n[10/12/2024 13:53] Diddy (Casteist): Papers ivvaleda dsa",
+        "chunk_id": "CTX-CHUNK-198"
       },
       {
         "rank": 3,
-        "score": 0.3341538232668978,
-        "semantic_score": 0.2204950451850891,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.5207827179841888,
+        "semantic_score": 0.4468282163143158,
+        "time_decay": 0.9398582274468027,
+        "chunk_text": "[22/09/2025 14:01] Diddy (Casteist): I have aldready put above\n[22/09/2025 14:01] Diddy (Casteist): 😂\n[22/09/2025 14:03] Diddy (Casteist): Em em ayyav iroju?\nanything imp !!\n[22/09/2025 14:03] Sai Dinesh: I didn't see\n[22/09/2025 14:03] Sai Dinesh: Only ml quiz\n[22/09/2025 14:03] Sai Dinesh: Software assignment also\n[22/09/2025 14:03] Diddy (Casteist): submitted?\n[22/09/2025 14:03] Diddy (Casteist): grp aa.. individual aa?",
+        "chunk_id": "CTX-CHUNK-544"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "hit",
     "notes": "Tests whether short list-style messages are retrieved correctly, not skipped as noise."
   },
@@ -265,33 +272,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, around 05/04/2024, both parties exchanged MATLAB code using meshgrid and linspace to generate plane points.",
     "source_text_snippet": "v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:)",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.6589743199071165,
-        "semantic_score": 0.6307820081710815,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.5026545762527146,
+        "semantic_score": 0.44082289934158325,
+        "time_decay": 0.853034078749126,
+        "chunk_text": "[05/04/2024 13:20] Diddy (Casteist): v = [1; 2; 3];\nspan = linspace(-3,3,10);\n[x,y,z] = meshgrid(span,span,span);\nplane_points = v * x(:)';\nfigure;\nscatter3(plane_points(1,:), plane_points(2,:), plane_points(3,:),'MarkerFaceColor','r');\nhold on;\nquiver3(0,0,0,v(1),v(2),v(3),'b');\nxlabel('x');\nylabel('y');\nzlabel('z');\ntitle('Span of (1,2,3) in R^3');\naxis equal;\ngrid on;\nhold off;\n[05/04/2024 13:20] Diddy (Casteist): v1=[1;2;3];\nv2=[-1;-2;-3];\nspan=linspace(-3,3,10);\n[X,Y]=meshgrid(span,span);\nplane_points=v1*X(:)'+v2*Y(:)';\nfigure;\nscatter3(plane_points(1,:),plane_points(2,:),plane_points(3,:),'r','MarkerFaceColor','r');\nhold on;\nquiver3(0,0,0,v1(1),v1(2),v1(3),'b');\nquiver3(0,0,0,v2(1),v2(2),v2(3),'b');\nxlabel('X');\nylabel('Y');\nzlabel('Z');\ntitle('Span of {(1,2,3),(-1,-2,-3)} in R^3');\naxis equal;\ngrid on;\nhold off;\n[05/04/2024 13:31] Sai Dinesh: v1 =[0;0;0];\nspan=linspace(-3, 3, 100);\n[X] =meshgrid(span, span, span);\nplane_points=v1 * X(:)';\nfigure;\nscatter3(plane_points(1,:), plane_points (2,:), plane_points (3,:), 'r.', 'MarkerFaceColor', 'r');\nhold on;\nquiver3(0, 0, 0, v1(1), 'b');\nquiver3(0, 0, 0, v2(1), 'b');\nxlabel('x');\nylabel('Y');\nzlabel('z');\ntitle('q4');\naxis equal;\ngrid on;\nhold off;\n[05/04/2024 13:35] Diddy (Casteist): v1 = [-8; 9];\nv2 = [0; 9];\nspan = linspace(-3, 3, 10); \n[X, Y] = meshgrid (span, span); \nplane_points = v1 * X(:)' + v2 * Y(:)';\nfigure; \nscatter(plane_points (1,:), plane_points (2,:), 'r.'); \nhold on;\nquiver(0, 0, v1(1), v1(2), 'b'); \nquiver(0, 0, v2(1), v2(2), 'b');\nxlabel('X'); \nylabel('Y'); \ntitle('Span of {(-8,9),(0,9)} in R^2');\naxis equal;\ngrid on;\nhold off;",
+        "chunk_id": "CTX-CHUNK-034"
       },
       {
         "rank": 2,
-        "score": 0.19415813171413962,
-        "semantic_score": 0.055794231593608856,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.4293107476771967,
+        "semantic_score": 0.3541530966758728,
+        "time_decay": 0.8552041033513651,
+        "chunk_text": "[19/04/2024 14:09] Diddy (Casteist): v1 = [1; 2];\northogonal_complement = null(v1')\nspan = linspace(-30, 30, 10); \nv1_points = v1 * span;\northogonal_points = orthogonal_complement * span;\nfigure;\nplot(v1_points(1,:), v1_points(2,:), 'r'); \nhold on;\nplot(orthogonal_points(1,:), orthogonal_points(2,:), 'k');\nxlabel('x');\nylabel('y');\ntitle('Orthogonal Complement');\naxis equal;\ngrid on;\nhold off;",
+        "chunk_id": "CTX-CHUNK-040"
       },
       {
         "rank": 3,
-        "score": 0.16924081384220918,
-        "semantic_score": 0.02733215130865574,
-        "time_decay": 0.9733899015323452,
-        "chunk_text": "[06/11/2024 20:45] You: Which algorithms are coming for lab exam?\n[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.38071361942008,
+        "semantic_score": 0.2906200587749481,
+        "time_decay": 0.8912437964091603,
+        "chunk_text": "[03/12/2024 10:10] Diddy (Casteist): https://www.sciencedirect.com/science/article/pii/S1110016824008779\nfuture scope\n[03/12/2024 10:10] Sai Dinesh: syms x1 x2;\nf = str2sym('(x1^2 + x2 - 11)^2 + (x1 + x2^2 - 7)^2');\ntol = 1e-6;\nmax_iter = 100;\ncenter = input('Enter the center point as [x1, x2]: ');\ndelta = 1.0;\nfor iter = 1:max_iter\n    vertices = [center + [delta, 0]; ...\n                center + [-delta, 0]; ...\n                center + [0, delta]; ...\n                center + [0, -delta]];\n    f_vals = arrayfun(@(i) double(subs(f, [x1, x2], vertices(i, :))), 1:size(vertices, 1))';\n    [min_val, min_idx] = min(f_vals);\n    if min_val < double(subs(f, [x1, x2], center))\n        center = vertices(min_idx, :);\n    else\n        delta = delta / 2;\n    end\n    if delta < tol\n        break;\n    end\nend\nbest_vertex = center;\nfprintf('Approximate minimum point: [%f, %f] after %d iterations\\n', best_vertex(1), best_vertex(2), iter);\n[03/12/2024 10:10] Diddy (Casteist): % Function definition\nf = @(x) (x(1)^2 + x(2) - 11)^2 + (x(1) + x(2)^2 - 7)^2;\n% Gradient of the function\ngrad_f = @(x) [\n    4*x(1)*(x(1)^2 + x(2) - 11) + 2*(x(1) + x(2)^2 - 7);\n    2*(x(1)^2 + x(2) - 11) + 4*x(2)*(x(1) + x(2)^2 - 7)\n];\n% Parameters\nx0 = [2; 2]; % Initial guess\nepsilon = 0.001; % Convergence tolerance\nmax_iter = 1000; % Maximum number of iterations\n% Conjugate Gradient Method\nx = x0; % Current point\ng = grad_f(x); % Current gradient\nd = -g; % Initial direction\niter = 0; % Iteration counter\nwhile norm(g) > epsilon && iter < max_iter\n    % Line search using exact minimization\n    alpha_fun = @(alpha) f(x + alpha * d); % Alpha function for line search\n    alpha = fminbnd(alpha_fun, 0, 1); % Find optimal alpha\n    % Update the point\n    x_next = x + alpha * d;\n    % Compute new gradient\n    g_next = grad_f(x_next);\n    % Conjugate direction update (Polak-Ribière method)\n    beta = (g_next' * (g_next - g)) / (g' * g);\n    % Update direction\n    d = -g_next + beta * d;\n    % Update variables for next iteration\n    x = x_next;\n    g = g_next;\n    iter = iter + 1;\nend\n% Display the result\nfprintf('Minimum found at x = [%f, %f] after %d iterations\\n', x(1), x(2), iter);\nfprintf('Function value at minimum: f(x) = %f\\n', f(x));\n[03/12/2024 10:14] Diddy (Casteist): https://slidesgo.com/theme/automotive-industry-theme-for-business-illustration#search-tech+car&position-8&results-19&rs=search\ntheme\n[03/12/2024 10:19] Diddy (Casteist): lab 4 and 5 question, export and send",
+        "chunk_id": "CTX-CHUNK-191"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "hit",
     "notes": "Tests retrieval of back-to-back multi-line code snippets from two different speakers on the same topic."
   },
@@ -302,33 +310,34 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "Yes, on 06/05/2024 at 02:06, Nikhil asked 'Did u play valo?' and followed up asking to be texted when playing comp.",
     "source_text_snippet": "Did u play valo?",
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.5703089670731637,
-        "semantic_score": 0.5182917714118958,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.5461389862471897,
+        "semantic_score": 0.49163198471069336,
+        "time_decay": 0.8550119949540025,
+        "chunk_text": "[06/05/2024 02:04] Nikhil: send the source code\n[06/05/2024 02:05] Sai Dinesh: The one I wrote ah?\n[06/05/2024 02:05] Nikhil: Ha\n[06/05/2024 02:05] Sai Dinesh: Morning I'll send\n[06/05/2024 02:05] Sai Dinesh: Now all are sleeping\n[06/05/2024 02:05] Nikhil: Okkkk\n[06/05/2024 02:06] Nikhil: Okay\n[06/05/2024 02:06] Nikhil: Did u play valo?",
+        "chunk_id": "CTX-CHUNK-038"
       },
       {
         "rank": 2,
-        "score": 0.46106372346752345,
-        "semantic_score": 0.39135247468948364,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.48873134509632843,
+        "semantic_score": 0.4176398813724518,
+        "time_decay": 0.8915829728649627,
+        "chunk_text": "[16/12/2024 13:07] Nikhil: Okay",
+        "chunk_id": "CTX-CHUNK-092"
       },
       {
         "rank": 3,
-        "score": 0.19909732379019263,
-        "semantic_score": 0.05776155740022659,
-        "time_decay": 1.0,
-        "chunk_text": "[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.48759711294580765,
+        "semantic_score": 0.4004057049751282,
+        "time_decay": 0.9816817581129913,
+        "chunk_text": "[16/05/2026 11:15] Nikhil: Send your transcript",
+        "chunk_id": "CTX-CHUNK-256"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests handling of informal abbreviation ('valo' for Valorant) in retrieval."
   },
@@ -339,33 +348,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 27/03/2024, Nikhil mentioned looking at Pranav's Valorant ID and tag, and a tag ('joseannan#7039') was shared shortly after.",
     "source_text_snippet": "Look pranav's valo I'd and tag",
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.4389312030898874,
-        "semantic_score": 0.36531421542167664,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.3874460051944294,
+        "semantic_score": 0.3051208257675171,
+        "time_decay": 0.8539553552802656,
+        "chunk_text": "[29/04/2024 11:03] Sai Dinesh: I have ur id card",
+        "chunk_id": "CTX-CHUNK-036"
       },
       {
         "rank": 2,
-        "score": 0.310299267758331,
-        "semantic_score": 0.2123980075120926,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.3374855598080382,
+        "semantic_score": 0.24726368486881256,
+        "time_decay": 0.8487428511303166,
+        "chunk_text": "[27/03/2024 15:30] Nikhil: Enough\n[27/03/2024 15:31] Sai Dinesh: yes\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tah\n[27/03/2024 15:31] Nikhil: Tag*\n[27/03/2024 15:33] Sai Dinesh: joseannan#7039\n[27/03/2024 15:33] Nikhil: Not this pranav\n[27/03/2024 15:33] Sai Dinesh: Nightwolf#6687\n[27/03/2024 15:33] Sai Dinesh: oh",
+        "chunk_id": "CTX-CHUNK-029"
       },
       {
         "rank": 3,
-        "score": 0.20353378839790823,
-        "semantic_score": 0.06298092752695084,
-        "time_decay": 1.0,
-        "chunk_text": "[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.3086894534830328,
+        "semantic_score": 0.19005437195301056,
+        "time_decay": 0.9809549154864923,
+        "chunk_text": "[12/05/2026 11:56] Sai Dinesh: Where did you crack the steg?\n[12/05/2026 11:56] Nikhil: 1st one ah\n[12/05/2026 11:56] Nikhil: There is nothing in it macha\n[12/05/2026 11:57] Sai Dinesh: The rhino na\n[12/05/2026 11:57] Nikhil: 2nd one metadata\n[12/05/2026 11:57] Nikhil: 3rd one bade64\n[12/05/2026 11:57] Sai Dinesh: Yeah metadata I got\nThe rhino one I was stuck\n[12/05/2026 11:59] Nikhil: There is nothing in it",
+        "chunk_id": "CTX-CHUNK-246"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "hit",
     "notes": "Tests whether a short message with a typo ('I'd' for 'ID') and its correction ('Tag*') a moment later are both retrieved as part of the same context."
   },
@@ -376,34 +386,35 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 10/10/2023, Nikhil shared a Flipkart link for an Acer Aspire 7 (2023) laptop with Core i5 12th Gen, 16GB RAM, 512GB SSD, and an RTX 3050 GPU.",
     "source_text_snippet": "Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H...",
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.43878502717821566,
-        "semantic_score": 0.3717357814311981,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.604883505229708,
+        "semantic_score": 0.5460548400878906,
+        "time_decay": 0.9382459410333398,
+        "chunk_text": "[15/09/2025 22:29] Nikhil: Deyyyy\n[15/09/2025 22:29] Nikhil: Found it?\n[15/09/2025 22:29] Sai Dinesh: Laptop updsting\n[15/09/2025 22:29] Sai Dinesh: Updating\"\n[15/09/2025 22:29] Nikhil: Good Job\n[15/09/2025 22:30] Nikhil: Fine i will crate one and use it\n[15/09/2025 22:31] Sai Dinesh: NO\nI will SEND IT TO YOU\n[15/09/2025 22:31] Nikhil: Die",
+        "chunk_id": "CTX-CHUNK-157"
       },
       {
         "rank": 2,
-        "score": 0.3555033357965296,
-        "semantic_score": 0.26716378331184387,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.5162700737650602,
+        "semantic_score": 0.4329248368740082,
+        "time_decay": 0.9885597494810214,
+        "chunk_text": "[22/06/2026 21:14] Sai Dinesh: Install meccha chameleon crack\n[22/06/2026 21:15] Nikhil: Okay send link\n[22/06/2026 21:15] Nikhil: Take my laptop and install\n[22/06/2026 21:15] Sai Dinesh: Come\n[22/06/2026 21:16] Nikhil: Come\n[22/06/2026 21:16] Nikhil: When come attendance take laptop",
+        "chunk_id": "CTX-CHUNK-264"
       },
       {
         "rank": 3,
-        "score": 0.2983908080949399,
-        "semantic_score": 0.19838805496692657,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.47537168702372495,
+        "semantic_score": 0.414124071598053,
+        "time_decay": 0.8224415077691996,
+        "chunk_text": "[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) A715-76G Gaming Laptop on Flipkart\nhttps://dl.flipkart.com/s/SopsLyuuuN",
+        "chunk_id": "CTX-CHUNK-006"
       }
     ],
-    "manual_score": "partial",
+    "auto_score": "partial",
+    "manual_score": "miss",
     "notes": "Tests retrieval of a long single-line product recommendation message."
   },
   {
@@ -413,34 +424,35 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "No — this request was actually made in the Yaoi Man chat, not the Nikhil chat. On 30/05/2025, the message 'Check if ollama is installed in the systems' was sent to Yaoi Man.",
     "source_text_snippet": "Check if ollama is installed in the systems",
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.34251649399870093,
-        "semantic_score": 0.25188514590263367,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.44187640203821177,
+        "semantic_score": 0.3470977246761322,
+        "time_decay": 0.9789555737566624,
+        "chunk_text": "[01/05/2026 13:30] Sai Dinesh: Is the embedded assembly done?\n[01/05/2026 13:31] Nikhil: No\n[01/05/2026 13:31] Sai Dinesh: When are you coming\n[01/05/2026 13:34] Nikhil: Dont know",
+        "chunk_id": "CTX-CHUNK-236"
       },
       {
         "rank": 2,
-        "score": 0.3236519412591073,
-        "semantic_score": 0.2281070351600647,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.44017381237376485,
+        "semantic_score": 0.3668701648712158,
+        "time_decay": 0.8555611482215426,
+        "chunk_text": "[09/05/2024 12:39] Nikhil: Rey aa popular vehicles section evaru chesaru?\n[09/05/2024 12:40] Sai Dinesh: david\n[09/05/2024 12:40] Sai Dinesh: why any issue?\n[09/05/2024 12:40] Nikhil: 🫡\n[09/05/2024 12:40] Nikhil: Images enti ra\n[09/05/2024 12:40] Sai Dinesh: images i kept 🥲\n[09/05/2024 12:41] Nikhil: And also checkout option paina Edo unnayi okasari photo pettu <This message was edited>",
+        "chunk_id": "CTX-CHUNK-054"
       },
       {
         "rank": 3,
-        "score": 0.25850236713886265,
-        "semantic_score": 0.12764984369277954,
-        "time_decay": 1.0,
-        "chunk_text": "[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.42259741318827126,
+        "semantic_score": 0.3295639157295227,
+        "time_decay": 0.9497872321211797,
+        "chunk_text": "[20/11/2025 10:57] Nikhil: Proxyyyyu\n[20/11/2025 10:58] Nikhil: Donem\n[20/11/2025 10:58] Nikhil: Done?\n[20/11/2025 10:59] Nikhil: Chpu raaaa\n[20/11/2025 11:00] Sai Dinesh: Flash mam a nuvvu?\n[20/11/2025 11:01] Nikhil: Yes yes",
+        "chunk_id": "CTX-CHUNK-194"
       }
     ],
-    "manual_score": "miss",
+    "auto_score": "miss",
+    "manual_score": "hit",
     "notes": "Deliberate cross-chat confusion test: the question NAMES Nikhil, but the correct answer is that this never happened in the Nikhil chat at all — it happened in a different chat. Checks whether retrieval correctly scopes to the named chat and doesn't wrongly pull in content from a different chat just because it's topically similar."
   },
   {
@@ -450,33 +462,34 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of a trip to Goa found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.23285121030701134,
-        "semantic_score": 0.10138003528118134,
-        "time_decay": 0.9778545354533811,
-        "chunk_text": "[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.49100985521528184,
+        "semantic_score": 0.4153149127960205,
+        "time_decay": 0.9199478622577625,
+        "chunk_text": "[27/05/2025 09:29] Sai Dinesh: We can go to Goa for cleaning 😙\n[27/05/2025 09:30] Sai Dinesh: Ok let's keep something for now and then discuss with others who are choosing technical?\n[27/05/2025 09:30] Diddy (Casteist): Put awareness campaign\n[27/05/2025 09:30] Diddy (Casteist): Put technical, we can change later\n[27/05/2025 09:30] Sai Dinesh: K\n[27/05/2025 09:31] Sai Dinesh: Anything you have in mind?\n[27/05/2025 09:33] Diddy (Casteist): I donno select it\n[27/05/2025 09:33] Diddy (Casteist): We'll discuss today",
+        "chunk_id": "CTX-CHUNK-388"
       },
       {
         "rank": 2,
-        "score": 0.2297646334401755,
-        "semantic_score": 0.1086404025554657,
-        "time_decay": 0.9161352751201978,
-        "chunk_text": "[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.44251703501629613,
+        "semantic_score": 0.3443306088447571,
+        "time_decay": 0.998906783321684,
+        "chunk_text": "[24/08/2026 21:51] Diddy (Casteist): \n[24/08/2026 21:53] Sai Dinesh: Why are they gate keeping the details from us 😭\n[24/08/2026 21:54] Diddy (Casteist): I dont think they know the details either\n[24/08/2026 21:54] Diddy (Casteist): they just know a rough estimate\n[24/08/2026 21:54] Diddy (Casteist): so they are not saying anukunta\n[24/08/2026 21:54] Diddy (Casteist): what did namitha ma'am say\n[24/08/2026 21:54] Diddy (Casteist): did u ask\n[24/08/2026 21:54] Sai Dinesh: No reply",
+        "chunk_id": "CTX-CHUNK-988"
       },
       {
         "rank": 3,
-        "score": 0.22792345554677074,
-        "semantic_score": 0.09551814198493958,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.4301359533969837,
+        "semantic_score": 0.3343375325202942,
+        "time_decay": 0.9729936716982241,
+        "chunk_text": "[01/04/2026 20:01] Sai Dinesh: You not going?",
+        "chunk_id": "CTX-CHUNK-790"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control for the Diddy chat."
   },
@@ -487,33 +500,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 05/11/2025 at 00:29, Nikhil shared a Canva templates link.",
     "source_text_snippet": "https://www.canva.com/templates/EAGp8a-91Xk/",
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.505021333694458,
-        "semantic_score": 0.41767215728759766,
-        "time_decay": 1.0,
-        "chunk_text": "[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.595103729572646,
+        "semantic_score": 0.5329945087432861,
+        "time_decay": 0.947055980939019,
+        "chunk_text": "[05/11/2025 00:29] Nikhil: https://www.canva.com/templates/EAGbk5vXPvI/\n[05/11/2025 00:29] Nikhil: https://www.canva.com/templates/EAGp8a-91Xk/\n[05/11/2025 00:30] Nikhil: https://www.canva.com/templates/EAGn_gmAbM8/\n[05/11/2025 00:31] Nikhil: https://www.canva.com/templates/EAGsBxYnRX8/\n[05/11/2025 00:36] Sai Dinesh: https://www.canva.com/templates/EAGuO7tMsaI-blue-and-white-modern-futuristic-cyber-security-presentation/\n[05/11/2025 00:36] Nikhil: https://www.canva.com/templates/EAGiiPWs9k4-red-and-black-futuristic-cyber-security-presentation/\n[05/11/2025 00:37] Nikhil: This also good\n[05/11/2025 00:37] Nikhil: Choose one",
+        "chunk_id": "CTX-CHUNK-179"
       },
       {
         "rank": 2,
-        "score": 0.2882391425000971,
-        "semantic_score": 0.1880294382572174,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.518850092642939,
+        "semantic_score": 0.43712717294692993,
+        "time_decay": 0.9819466375869901,
+        "chunk_text": "[17/05/2026 21:56] Sai Dinesh: https://canva.link/ncfd0mk25hkb4uz\n[17/05/2026 21:57] Sai Dinesh: hows this template?",
+        "chunk_id": "CTX-CHUNK-261"
       },
       {
         "rank": 3,
-        "score": 0.24571374072571722,
-        "semantic_score": 0.136415034532547,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.46600212024351695,
+        "semantic_score": 0.3811110854148865,
+        "time_decay": 0.9470513176057562,
+        "chunk_text": "[04/11/2025 23:59] Nikhil: https://www.canva.com/design/DAG3wqHGbGo/FVuM76DJfEnNMy6NIDSVfw/edit?utm_content=DAG3wqHGbGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "chunk_id": "CTX-CHUNK-178"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests whether a bare URL-only message is retrieved correctly for a topical query (design templates)."
   },
@@ -524,33 +538,34 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of buying a car found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 4,
+    "num_chunks_in_chat": 266,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.20341463481658156,
-        "semantic_score": 0.08823589980602264,
-        "time_decay": 0.8560941332097487,
-        "chunk_text": "[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.34418011796493986,
+        "semantic_score": 0.2392629086971283,
+        "time_decay": 0.9387109704825387,
+        "chunk_text": "[18/09/2025 14:04] Sai Dinesh: comig to lab?\n[18/09/2025 14:04] Nikhil: When?\n[18/09/2025 14:04] Sai Dinesh: 3\n[18/09/2025 14:06] Nikhil: Nono\n[18/09/2025 14:07] Sai Dinesh: ohh\nok \nkeep burger ready as party\nyour kind friend,dinesh\n[18/09/2025 14:09] Nikhil: No money\n[18/09/2025 14:15] Sai Dinesh: its is ok my friend for all I would not ask you to treat us to something when you have achieved something. but ok I am shameless\nthreat when you have money\nonce again \nyour kinder friend\nsai Dinesh K",
+        "chunk_id": "CTX-CHUNK-164"
       },
       {
         "rank": 2,
-        "score": 0.19032746087759736,
-        "semantic_score": 0.047444071620702744,
-        "time_decay": 1.0,
-        "chunk_text": "[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.29615853246972446,
+        "semantic_score": 0.19054436683654785,
+        "time_decay": 0.8946388043910587,
+        "chunk_text": "[03/01/2025 21:10] Sai Dinesh: Are you alive ??\n[03/01/2025 21:11] Nikhil: Yes\n[03/01/2025 21:11] Sai Dinesh: Are you boy\n[03/01/2025 21:11] Sai Dinesh: ?\n[03/01/2025 21:11] Nikhil: Yes\n[03/01/2025 21:11] Sai Dinesh: Do you like chocolate?\n[03/01/2025 21:12] Nikhil: Maybe",
+        "chunk_id": "CTX-CHUNK-100"
       },
       {
         "rank": 3,
-        "score": 0.17907488937368124,
-        "semantic_score": 0.05801638588309288,
-        "time_decay": 0.8650730758203485,
-        "chunk_text": "[06/05/2024 02:06] Nikhil: Did u play valo?\n[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.2960803425744014,
+        "semantic_score": 0.19739776849746704,
+        "time_decay": 0.8552815956770295,
+        "chunk_text": "[07/05/2024 18:38] Nikhil: Dude\n[07/05/2024 18:38] Nikhil: What did u tell that david\n[07/05/2024 18:38] Nikhil: What is he talking abt css\n[07/05/2024 18:38] Nikhil: What did I do\n[07/05/2024 18:38] Sai Dinesh: I think he meant me\n[07/05/2024 18:38] Nikhil: Nvm\n[07/05/2024 18:39] Sai Dinesh: I asked him to do the icons and vehicle selection bit in the video\n[07/05/2024 18:39] Nikhil: It's ok I took the credit",
+        "chunk_id": "CTX-CHUNK-042"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control for the Nikhil chat."
   },
@@ -561,34 +576,35 @@
     "question_type": "code-mixed",
     "ground_truth_answer": "Diddy said 'chesava' (Telugu, informal for 'did you do it?') on 23/08/2024 at 10:22 — a short check-in style message, likely following up on a task or assignment.",
     "source_text_snippet": "chesava",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.3833760773770003,
-        "semantic_score": 0.2893597483634949,
-        "time_decay": 0.9161352751201978,
-        "chunk_text": "[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.48264417449321617,
+        "semantic_score": 0.40768733620643616,
+        "time_decay": 0.9073995914516364,
+        "chunk_text": "[12/03/2025 14:03] Sai Dinesh: Ugadi ki pay chesara?\n[12/03/2025 14:10] Diddy (Casteist): Nikhil, pranav and some did\n[12/03/2025 14:10] Diddy (Casteist): Nenu, teja inka evaru cheyyale..\nMaybe we'll also do.",
+        "chunk_id": "CTX-CHUNK-328"
       },
       {
         "rank": 2,
-        "score": 0.20631588966694894,
-        "semantic_score": 0.07009747624397278,
-        "time_decay": 0.9782202323971471,
-        "chunk_text": "[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.4598104093778937,
+        "semantic_score": 0.38000020384788513,
+        "time_decay": 0.9120682407146088,
+        "chunk_text": "[09/04/2025 22:00] Diddy (Casteist): em baby chesestava enti <This message was edited>",
+        "chunk_id": "CTX-CHUNK-349"
       },
       {
         "rank": 3,
-        "score": 0.16690180187640521,
-        "semantic_score": 0.02379249595105648,
-        "time_decay": 0.9778545354533811,
-        "chunk_text": "[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.45248474599072824,
+        "semantic_score": 0.37151002883911133,
+        "time_decay": 0.9113414765165575,
+        "chunk_text": "[05/04/2025 12:24] Sai Dinesh: Cheppu ra",
+        "chunk_id": "CTX-CHUNK-344"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "miss",
     "notes": "Tests retrieval when both the query AND the target message are in code-mixed/Telugu-English text. Important: verify actual surrounding context before finalizing this answer, as 'chesava' alone is ambiguous without more context."
   },
   {
@@ -598,33 +614,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "On 04/06/2026, there was a mention of having 'speed stickers' in what appears to be a racing/game context.",
     "source_text_snippet": "Dam you have the speed stickers",
-    "num_chunks_in_chat": 5,
+    "num_chunks_in_chat": 910,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.6105135023593903,
-        "semantic_score": 0.5417805910110474,
-        "time_decay": 1.0,
-        "chunk_text": "[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "CTX-CHUNK-005"
+        "score": 0.7148989579218405,
+        "semantic_score": 0.6667804718017578,
+        "time_decay": 0.987570379268976,
+        "chunk_text": "[04/06/2026 11:45] Yaoi Man: I shouldn't put everything I see under a microscope\n[04/06/2026 11:45] Sai Dinesh: Nah they are just family friends\n[04/06/2026 11:46] Yaoi Man: Sigieon pex\n[04/06/2026 11:46] Yaoi Man: Only 2 left 🤧\n[04/06/2026 11:46] Sai Dinesh: Yes I am sad\nI will kill the rest\n[04/06/2026 11:47] Yaoi Man: Me after all sigieon pex are ded\n[04/06/2026 11:47] Sai Dinesh: Dam you have the speed stickers",
+        "chunk_id": "CTX-CHUNK-614"
       },
       {
         "rank": 2,
-        "score": 0.4207445832213637,
-        "semantic_score": 0.35051172971725464,
-        "time_decay": 0.8187307530779818,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now",
-        "chunk_id": "CTX-CHUNK-001"
+        "score": 0.6407548282090398,
+        "semantic_score": 0.5828301310539246,
+        "time_decay": 0.9689947787546928,
+        "chunk_text": "[14/03/2026 13:21] Yaoi Man: Sidharth party\n[14/03/2026 13:21] Yaoi Man: Sure\n[14/03/2026 13:32] Yaoi Man: They fixed his car 😐\n[14/03/2026 13:32] Yaoi Man: And it's 12 merc 34 ferrari\n[14/03/2026 13:33] Yaoi Man: Asusual\n[14/03/2026 13:33] Sai Dinesh: They be we working like god's out there\n[14/03/2026 13:33] Yaoi Man: Kimi pole\n[14/03/2026 13:33] Sai Dinesh: Yeah I saw",
+        "chunk_id": "CTX-CHUNK-466"
       },
       {
         "rank": 3,
-        "score": 0.39565048338320435,
-        "semantic_score": 0.3205146789550781,
-        "time_decay": 0.8214200418092532,
-        "chunk_text": "[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes",
-        "chunk_id": "CTX-CHUNK-002"
+        "score": 0.6322701834232416,
+        "semantic_score": 0.5708398222923279,
+        "time_decay": 0.980375563165086,
+        "chunk_text": "[03/05/2026 22:37] Yaoi Man: 3 sec gap\n[03/05/2026 22:37] Yaoi Man: but fancode said theyre facing overlload\n[03/05/2026 22:37] Sai Dinesh: Meteor to crash into earth in 3 mins\n[03/05/2026 22:37] Sai Dinesh: Lemme find a link for u\n[03/05/2026 22:37] Yaoi Man: noo\n[03/05/2026 22:37] Yaoi Man: plsss\n[03/05/2026 22:38] Yaoi Man: pls\n[03/05/2026 22:38] Yaoi Man: fast",
+        "chunk_id": "CTX-CHUNK-567"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Casual/slang-heavy message — tests retrieval robustness on very informal phrasing."
   },
@@ -635,33 +652,34 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 10/12/2024, Diddy mentioned a half-mark increase ('1/2 mark is increased ra').",
     "source_text_snippet": "1/2  mark  is  increased  ra",
-    "num_chunks_in_chat": 6,
+    "num_chunks_in_chat": 1007,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.39798647314310076,
-        "semantic_score": 0.2917487919330597,
-        "time_decay": 1.0,
-        "chunk_text": "[10/12/2024 10:14] You: Did ma'am recheck your evaluation?\n[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "CTX-CHUNK-006"
+        "score": 0.4186366514939335,
+        "semantic_score": 0.32441896200180054,
+        "time_decay": 0.9525368919493531,
+        "chunk_text": "[05/12/2025 13:09] Diddy (Casteist): Good evening ma’am,\nThis is Dinesh (am.sc.u4cse23130) and Dheeraj (am.sc.u4cse23150). We came to meet you today regarding our Deep Learning project evaluation, but we couldn’t find you in the cabin, so we wanted to message you.\nWe noticed that we received 31/40 for the project. Since our submissions such as the proposal, interim report, and final report were all completed properly and our AI report score is well below the 20% threshold.. we wanted to kindly request the split of marks for the different components (implementation, presentation/viva, report, etc.) so we can understand where we might have lost marks.\nOur project overall went very well, and we have also updated the final paper with improvements. If possible, could you please reconsider the marks or let us know if anything specific needs correction?\nIf you give us a time slot, we would be happy to come and show the updated paper, especially if there are any changes needed to make it suitable for publication.\nThank you, ma’am.",
+        "chunk_id": "CTX-CHUNK-665"
       },
       {
         "rank": 2,
-        "score": 0.28293223795497613,
-        "semantic_score": 0.161086767911911,
-        "time_decay": 0.9733899015323452,
-        "chunk_text": "[06/11/2024 20:45] You: Which algorithms are coming for lab exam?\n[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now",
-        "chunk_id": "CTX-CHUNK-003"
+        "score": 0.4069693315052971,
+        "semantic_score": 0.3213094472885132,
+        "time_decay": 0.8923753420670729,
+        "chunk_text": "[10/12/2024 09:58] Diddy (Casteist): Dude, in DBMS I got 35.5,\nIn aums it is showing 35 only\n[10/12/2024 10:15] Sai Dinesh: Lol\n[10/12/2024 10:16] Sai Dinesh: I think they round off .5 to previous number\n[10/12/2024 10:16] Diddy (Casteist): 1/2  mark  is  increased  ra\n[10/12/2024 10:16] Diddy (Casteist): update      chesara  leda ani\n[10/12/2024 10:16] Sai Dinesh: I will ask her\n[10/12/2024 10:24] Diddy (Casteist): punith also, 23 as 1mark is added,\ninitially 22",
+        "chunk_id": "CTX-CHUNK-196"
       },
       {
         "rank": 3,
-        "score": 0.2619058825780246,
-        "semantic_score": 0.135562002658844,
-        "time_decay": 0.9778545354533811,
-        "chunk_text": "[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then",
-        "chunk_id": "CTX-CHUNK-004"
+        "score": 0.4016085728220833,
+        "semantic_score": 0.30662333965301514,
+        "time_decay": 0.9398582274468027,
+        "chunk_text": "[22/09/2025 14:01] Diddy (Casteist): I have aldready put above\n[22/09/2025 14:01] Diddy (Casteist): 😂\n[22/09/2025 14:03] Diddy (Casteist): Em em ayyav iroju?\nanything imp !!\n[22/09/2025 14:03] Sai Dinesh: I didn't see\n[22/09/2025 14:03] Sai Dinesh: Only ml quiz\n[22/09/2025 14:03] Sai Dinesh: Software assignment also\n[22/09/2025 14:03] Diddy (Casteist): submitted?\n[22/09/2025 14:03] Diddy (Casteist): grp aa.. individual aa?",
+        "chunk_id": "CTX-CHUNK-544"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests retrieval of a short, spaced-out informal message about grades."
   }

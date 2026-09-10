@@ -47,11 +47,19 @@ chroma_db/
 *.sqlite3
 
 # Personal Chat Data (Privacy First - Do NOT commit raw personal chats)
-data/raw/*
+data/raw/**
+data/raw_real/**
+data/processed/**
 !data/raw/.gitkeep
-!data/raw/sample_chat.txt
-data/processed/*
+!data/raw_real/.gitkeep
 !data/processed/.gitkeep
+!data/raw/sample_chat.txt
+!data/raw_real/README.md
+
+# Common personal-export / contact artifacts
+**/*.vcf
+**/*.eml
+**/*.contact
 
 # IDEs and Editors
 .vscode/
@@ -66,10 +74,14 @@ logs/
 *.zip
 eval_results/*
 !eval_results/.gitkeep
-!eval_results/*.json
+eval_results/*.json
 
 # Node / Web artifacts (if any UI builds are added)
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 .parcel-cache/
+
+# Allow explicit project files that are safe to keep in version control
+!requirements.txt
+!sample_data.txt

@@ -6,22 +6,29 @@
     "question_type": "time-based",
     "ground_truth_answer": "On 30/03/2024, around 19:27",
     "source_text_snippet": "Bro can u send physics assignment answers?",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 625,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.4047638773918152,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now\n[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes\n[15/04/2024 15:05] You: Did you write the Payable interface for lab?",
+        "score": 0.36975592374801636,
+        "chunk_text": "[17/03/2024 13:14] Yaoi Man: https://link.brawlstars.com/invite/friend/en?tag=900PLRGJQ&token=kwm9k8sc\n[30/03/2024 19:27] Sai Dinesh: Bro can u send physics assignment answers?\n[30/03/2024 20:08] Yaoi Man: Ok\n[30/03/2024 20:09] Sai Dinesh: Thank you 😁\n[01/04/2024 08:09] Sai Dinesh: Again?",
         "chunk_id": "LLAMA-000"
       },
       {
         "rank": 2,
-        "score": 0.16863588988780975,
-        "chunk_text": "[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now\n[30/05/2025 09:20] You: Heading to the lab now\n[30/05/2025 09:24] You: Check if ollama is installed in the systems\n[30/05/2025 09:28] Yaoi Man: Checking now, yes ollama 0.1.32 is installed on terminal 4\n[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "LLAMA-001"
+        "score": 0.20646020770072937,
+        "chunk_text": "Invitation code: GA359910DN, https://hoyo.link/2AK6DH46l?m_code=GA359910DN\n[29/05/2026 23:54] Yaoi Man: https://youtu.be/ueufxzUjsS0?si=zoIejNNc1q_G7dEy\n[30/05/2026 20:58] Yaoi Man: https://amritauniv-my.sharepoint.com/personal/nimmy_am_amrita_edu/_layouts/15/onedrive.",
+        "chunk_id": "LLAMA-400"
+      },
+      {
+        "rank": 3,
+        "score": 0.20041441917419434,
+        "chunk_text": "[08/04/2026 10:22] Yaoi Man: nope\n[08/04/2026 10:22] Yaoi Man: when is the submission?",
+        "chunk_id": "LLAMA-322"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "hit",
+    "manual_score": "miss",
     "notes": ""
   },
   {
@@ -31,22 +38,29 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 15/04/2024 around 15:08, a Java Invoice/Payable class implementation was shared.",
     "source_text_snippet": "package labsheet6; public interface Payable {...",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 625,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.33283406496047974,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now\n[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes\n[15/04/2024 15:05] You: Did you write the Payable interface for lab?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.41754722595214844,
+        "chunk_text": "\"Product Part\", 5, 10.5);\n        System.out.println(\"Invoice Details:\");\n        invoice.display();\n        System.out.println(\"Payment Amount: \" + invoice.getPaymentAmount());\n        SalariedEmployee salariedEmployee = new SalariedEmployee(\"hello\", \"bro\", \"123-45-6789\", 500.0);\n        System.out.println(\"\\nSalaried Employee Details:\");\n        salariedEmployee.display();\n        System.out.println(\"Payment Amount: \" + salariedEmployee.getPaymentAmount());\n    }\n[18/04/2024 09:10] Sai Dinesh: Bro it seems nikhil forgot his phone in his room can u get it when coming?",
+        "chunk_id": "LLAMA-008"
       },
       {
         "rank": 2,
-        "score": 0.3188495635986328,
-        "chunk_text": "[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now\n[30/05/2025 09:20] You: Heading to the lab now\n[30/05/2025 09:24] You: Check if ollama is installed in the systems\n[30/05/2025 09:28] Yaoi Man: Checking now, yes ollama 0.1.32 is installed on terminal 4\n[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "LLAMA-001"
+        "score": 0.36114585399627686,
+        "chunk_text": "String lastName, String socialSecurityNumber, double weeklySalary) {\n        super(firstName, lastName, socialSecurityNumber);\n        this.weeklySalary = weeklySalary;\n    }\n    public double getWeeklySalary() {\n        return weeklySalary;\n    }\n    public void setWeeklySalary(double weeklySalary) {\n        this.weeklySalary = weeklySalary;\n    }\n    public double getPaymentAmount() {\n        return 4 * weeklySalary;}\n    public void display() {\n        System.out.println(\"First Name: \" + getFirstName());\n        System.out.println(\"Last Name: \" + getLastName());\n        System.out.println(\"Social Security Number: \" + getSocialSecurityNumber());\n        System.out.println(\"Weekly Salary: \" + weeklySalary);\n        System.out.println(\"Payment Amount: \" + getPaymentAmount());\n    }\n}\nclass DriverClass {\n    public static void main(String[] args) {\n        Invoice invoice = new Invoice(\"P3641\", \"Product Part\", 5, 10.5);\n        System.out.println(\"Invoice Details:\");\n        invoice.display();\n        System.out.",
+        "chunk_id": "LLAMA-007"
+      },
+      {
+        "rank": 3,
+        "score": 0.35382357239723206,
+        "chunk_text": "}\n    public String getFirstName() {\n        return firstName;\n    }\n    public void setFirstName(String firstName) {\n        this.firstName = firstName;\n    }\n    public String getLastName() {\n        return lastName;\n    }\n    public void setLastName(String lastName) {\n        this.lastName = lastName;\n    }\n    public String getSocialSecurityNumber() {\n        return socialSecurityNumber;\n    }\n    public void setSocialSecurityNumber(String socialSecurityNumber) {\n        this.socialSecurityNumber = socialSecurityNumber;\n    }\n    public void display() {\n        System.out.println(\"First Name: \" + firstName);\n        System.out.println(\"Last Name: \" + lastName);\n        System.out.println(\"Social Security Number: \" + socialSecurityNumber);\n        System.out.println(\"Payment Amount: \" + getPaymentAmount());\n    }\n}\nclass SalariedEmployee extends Employee {\n    private double weeklySalary;\n    public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {\n        super(firstName, lastName, socialSecurityNumber);\n        this.weeklySalary = weeklySalary;",
+        "chunk_id": "LLAMA-006"
       }
     ],
-    "manual_score": "partial",
+    "auto_score": "miss",
+    "manual_score": "hit",
     "notes": "Tests whether retrieval correctly handles a long multi-line code message."
   },
   {
@@ -56,22 +70,29 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "Yaoi Man, sharing a Brawl Stars friend invite link on 17/03/2024 at 13:14.",
     "source_text_snippet": "https://link.brawlstars.com/invite/friend/...",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 625,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.301876962184906,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now\n[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes\n[15/04/2024 15:05] You: Did you write the Payable interface for lab?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.36081209778785706,
+        "chunk_text": "Sai Dinesh: I'll watch on cineby or something the last again\n[19/07/2025 19:04] Yaoi Man: I just finished watching\n[20/07/2025 11:37] Yaoi Man: Holy\n[20/07/2025 11:37] Yaoi Man: Kenjiiiiii\n[20/07/2025 16:53] Sai Dinesh: Bro you can get angelic skins for brawlers you didn't unlock\n[20/07/2025 16:53] Sai Dinesh: Damn\n[20/07/2025 17:17] Yaoi Man: Wut?",
+        "chunk_id": "LLAMA-129"
       },
       {
         "rank": 2,
-        "score": 0.08601100742816925,
-        "chunk_text": "[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now\n[30/05/2025 09:20] You: Heading to the lab now\n[30/05/2025 09:24] You: Check if ollama is installed in the systems\n[30/05/2025 09:28] Yaoi Man: Checking now, yes ollama 0.1.32 is installed on terminal 4\n[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "LLAMA-001"
+        "score": 0.33823615312576294,
+        "chunk_text": "[28/04/2026 10:48] Sai Dinesh: I think it will be there by tonighth\n[28/04/2026 10:48] Yaoi Man: Less goo\n[28/04/2026 12:48] Sai Dinesh: https://act.hoyoverse.com/sr/event/e20260422return-r744pv/index.html?inviter=GACN6AJ5JN&hyl_landscape=true&hyl_auth_required=true&hyl_hide_status_bar=true&win_mode=fullscreen&utm_source=share&utm_medium=link&utm_campaign=ingame\n[28/04/2026 14:12] Sai Dinesh: imma buy the edgar bakugo\n[28/04/2026 14:12] Sai Dinesh: lets hope i have the gems\n[28/04/2026 14:12] Yaoi Man: Who are those guys?",
+        "chunk_id": "LLAMA-363"
+      },
+      {
+        "rank": 3,
+        "score": 0.32499730587005615,
+        "chunk_text": "reddit.com/r/Genshin_Impact_Leaks/s/HmvFmx0ns8\n[11/01/2026 15:17] Yaoi Man: Her majesty the tsarista\n[11/01/2026 15:17] Yaoi Man: Omg\n[11/01/2026 15:18] Sai Dinesh: Her majesty finally might  show her face\n[11/01/2026 18:06] Yaoi Man: Mha on tv?\n[11/01/2026 18:06] Yaoi Man: That too star movies lol\n[11/01/2026 18:26] Sai Dinesh: Ahh\nI think they are showing the season recaps\n[11/01/2026 19:32] Yaoi Man: Onggg\n[11/01/2026 19:32] Yaoi Man: 3 more days to seey goddess\n[11/01/2026 19:32] Yaoi Man: All shall kneel before her majesty\n[11/01/2026 19:33] Yaoi Man:",
+        "chunk_id": "LLAMA-245"
       }
     ],
-    "manual_score": "partial",
+    "auto_score": "partial",
+    "manual_score": "miss",
     "notes": ""
   },
   {
@@ -81,21 +102,28 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of a concert found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 625,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.019937381148338318,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now\n[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes\n[15/04/2024 15:05] You: Did you write the Payable interface for lab?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.13453608751296997,
+        "chunk_text": "[27/07/2026 13:03] Yaoi Man: Yesp\n[27/07/2026 13:04] Yaoi Man: I'm staying here in ac\n[27/07/2026 13:04] Sai Dinesh: 🥲\n[27/07/2026 13:04] Yaoi Man: What happened?\n[27/07/2026 13:04] Sai Dinesh: Nothing\n[27/07/2026 13:23] Sai Dinesh: Just call me if something interesting is happening\n[27/07/2026 13:28] Sai Dinesh: Still there?",
+        "chunk_id": "LLAMA-621"
       },
       {
         "rank": 2,
-        "score": -0.07438632100820541,
-        "chunk_text": "[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now\n[30/05/2025 09:20] You: Heading to the lab now\n[30/05/2025 09:24] You: Check if ollama is installed in the systems\n[30/05/2025 09:28] Yaoi Man: Checking now, yes ollama 0.1.32 is installed on terminal 4\n[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "LLAMA-001"
+        "score": 0.13342522084712982,
+        "chunk_text": "took operation research\n[17/06/2026 10:21] Yaoi Man: I'm thinking to take that\n[17/06/2026 10:21] Sai Dinesh: Take it now only\n[17/06/2026 10:21] Sai Dinesh: Again seats will be filled\n[17/06/2026 10:21] Yaoi Man: Took\n[17/06/2026 10:22] Yaoi Man: Dino\n[17/06/2026 10:22] Yaoi Man: Did ur NPTEL courses come on aums?\n[17/06/2026 10:25] Sai Dinesh: No\n[17/06/2026 10:25] Sai Dinesh: Was it supposed to come?",
+        "chunk_id": "LLAMA-502"
+      },
+      {
+        "rank": 3,
+        "score": 0.12730297446250916,
+        "chunk_text": "[18/01/2026 22:30] Sai Dinesh: 1hr as of now\n[18/01/2026 22:31] Sai Dinesh: Chaitanya will come at 2 I think ask him something\n[18/01/2026 22:31] Yaoi Man: Far Better than pottodu\n[18/01/2026 22:31] Yaoi Man: 3\n[18/01/2026 22:31] Yaoi Man: 8 hrs delay\n[18/01/2026 22:31] Sai Dinesh: When I called mihir it was 6\n[18/01/2026 22:31] Sai Dinesh: Prepared for the interview tho?",
+        "chunk_id": "LLAMA-265"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control - system should NOT confidently retrieve/fabricate an answer here."
   },
@@ -106,28 +134,29 @@
     "question_type": "time-based",
     "ground_truth_answer": "The last day for payment was mentioned as being due at 8:00pm on 12/11/2024.",
     "source_text_snippet": "Last day for payment today 8:00pm",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.23499414324760437,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.30874884128570557,
+        "chunk_text": "[17/12/2025 15:34] Sai Dinesh: haa\ntonight we will pay ah?\n[17/12/2025 16:49] Diddy (Casteist): well wait\n[17/12/2025 19:23] Diddy (Casteist): Idi pampinchi aduguthava ma'am ni whether to wait for the result of that acceptance or what to do ani?",
+        "chunk_id": "LLAMA-556"
       },
       {
         "rank": 2,
-        "score": 0.14633610844612122,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.29015427827835083,
+        "chunk_text": "[12/01/2026 23:45] Sai Dinesh: not good\nstill fever and muscle aches\n[12/01/2026 23:45] Diddy (Casteist): damn\n[12/01/2026 23:45] Diddy (Casteist): get better\n[13/01/2026 15:23] Sai Dinesh: I called ma'am\nNo need to call\n[13/01/2026 15:23] Sai Dinesh: She wanted the payment receipt\n[13/01/2026 15:26] Diddy (Casteist): Okay\n[13/01/2026 15:26] Diddy (Casteist): You sent it?\n[13/01/2026 15:27] Sai Dinesh: Yeah\n[13/01/2026 15:27] Diddy (Casteist): .",
+        "chunk_id": "LLAMA-573"
       },
       {
         "rank": 3,
-        "score": -0.003103055991232395,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.28408440947532654,
+        "chunk_text": "[11/11/2025 20:51] Sai Dinesh: ill fill it\n[11/11/2025 20:53] Sai Dinesh: the repo is public right?",
+        "chunk_id": "LLAMA-510"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "partial",
     "notes": "Tests exact time-window retrieval."
   },
   {
@@ -137,28 +166,29 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 13/11/2024, Diddy shared a Google STEP Internship 2025 opportunity post addressed to a coding community.",
     "source_text_snippet": "Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community!",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.30558279156684875,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.45466893911361694,
+        "chunk_text": "[23/08/2026 11:26] Diddy (Casteist): Ntg\n[23/08/2026 17:16] Diddy (Casteist): *Queries Regarding Orion Innovations Internship*\n[23/08/2026 17:16] Diddy (Casteist): Dear Ma’am,\nI hope you are doing well. I am Dheeraj M, a final-year B.Tech CSE student from Amrita Vishwa Vidyapeetham. I was shortlisted for the internship opportunity at Orion Innovations following the project presentation. I am grateful for the opportunity and am very interested in joining Orion Innovations as an intern.\nCould you please share a few details regarding the internship opportunity?\n- Location of the internship\n- Role/designation and the kind of work involved\n- Opportunities for continuation after the internship\n- Whether we will receive an LOI, offer letter, or any other document\nKindly let us know these details, Ma’am. It would be really helpful to understand the opportunity better.\nThank you for your guidance and support, Ma’am.\nRegards,\nDheeraj",
+        "chunk_id": "LLAMA-729"
       },
       {
         "rank": 2,
-        "score": 0.19675934314727783,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.4535207748413086,
+        "chunk_text": "[23/01/2025 19:50] Diddy (Casteist): a domain or a project in particular\n[26/01/2025 15:54] Sai Dinesh: Srm one ah?\n[26/01/2025 15:54] Diddy (Casteist): Kochi\n[31/01/2025 14:17] Diddy (Casteist): https://manaschool.in/all-internships-full-schedule-for-2025-with-stipend-of-1-2-lakhs/\n[02/02/2025 11:23] Sai Dinesh: Did your train start?",
+        "chunk_id": "LLAMA-256"
       },
       {
         "rank": 3,
-        "score": 0.12022122740745544,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.4172646999359131,
+        "chunk_text": "[18/02/2025 10:06] Diddy (Casteist): 10 50 yeah\n[18/02/2025 10:06] Diddy (Casteist): attendance this period?\n[18/02/2025 10:06] Sai Dinesh: Not\n[18/02/2025 10:06] Sai Dinesh: She already took\n[19/02/2025 15:29] Diddy (Casteist): Os\nFree elective\nDaa\nMaths\n[19/02/2025 17:36] Diddy (Casteist): dude\n[19/02/2025 17:37] Diddy (Casteist): ask your dad about the oppurtunity of internship!!\n[19/02/2025 18:13] Diddy (Casteist): oreyy?",
+        "chunk_id": "LLAMA-287"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "miss",
     "notes": "Tests retrieval of a forwarded/announcement-style message, not a casual chat line."
   },
   {
@@ -168,28 +198,29 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Binary search, linear search, bubble sort, merge sort, selection sort, and insertion sort were listed on 06/11/2024.",
     "source_text_snippet": "binary search | linear search | bubble sort | merge sort | selection sort | insertion srt",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.42866986989974976,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.4940915107727051,
+        "chunk_text": "[29/05/2025 11:34] Diddy (Casteist): Nah\n[29/05/2025 11:35] Sai Dinesh: ok\n[29/05/2025 14:11] Diddy (Casteist): Cmg\n[29/05/2025 14:11] Sai Dinesh: O\n[29/05/2025 14:11] Sai Dinesh: K\n[29/05/2025 18:25] Diddy (Casteist): dude\n[29/05/2025 18:25] Diddy (Casteist): ask type of questions for daa\n[29/05/2025 20:59] Diddy (Casteist): git reflog\n[30/05/2025 00:34] Diddy (Casteist): quick sort\nmerge sort\nquick select\nmax sub array\ndivide n conquer\n[30/05/2025 12:00] Diddy (Casteist): Did you check?",
+        "chunk_id": "LLAMA-350"
       },
       {
         "rank": 2,
-        "score": 0.31845924258232117,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.45761117339134216,
+        "chunk_text": "[17/12/2023 22:49] Sai Dinesh: One sec\n[17/12/2023 22:50] Sai Dinesh: Not conservative\n[17/12/2023 22:50] Sai Dinesh: Curl is not zero\n[17/12/2023 22:54] Diddy (Casteist): Okay 👍\n[18/12/2023 01:56] Diddy (Casteist): Class test 2 lo second question endi ra?\n[26/12/2023 00:02] Sai Dinesh: def insertion_sort(arr):\n    n = len(arr)\n    # Traverse through all array elements starting from the second element\n    for i in range(1,",
+        "chunk_id": "LLAMA-021"
       },
       {
         "rank": 3,
-        "score": 0.14283686876296997,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.4549301564693451,
+        "chunk_text": "[10/12/2024 13:03] Sai Dinesh: I'll send 5 min in mess\n[10/12/2024 13:03] Diddy (Casteist): Okay\n[10/12/2024 13:37] Sai Dinesh: Dsa\n[10/12/2024 13:37] Diddy (Casteist): Dates?\n[10/12/2024 13:38] Sai Dinesh: I'll ask only lab exam right?",
+        "chunk_id": "LLAMA-178"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "miss",
     "notes": "Tests whether short list-style messages are retrieved correctly, not skipped as noise."
   },
   {
@@ -199,27 +230,28 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, around 05/04/2024, both parties exchanged MATLAB code using meshgrid and linspace to generate plane points.",
     "source_text_snippet": "v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:)",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.5819987058639526,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.5517916679382324,
+        "chunk_text": "[05/04/2024 13:31] Sai Dinesh: v1 =[0;0;0];\nspan=linspace(-3, 3, 100);\n[X] =meshgrid(span, span, span);\nplane_points=v1 * X(:)';\nfigure;\nscatter3(plane_points(1,:), plane_points (2,:), plane_points (3,:), 'r.",
+        "chunk_id": "LLAMA-035"
       },
       {
         "rank": 2,
-        "score": -0.06782252341508865,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.4915693402290344,
+        "chunk_text": "entha raste antha\n[24/03/2024 00:29] Diddy (Casteist): Petta rarey\n[05/04/2024 13:20] Diddy (Casteist): v = [1; 2; 3];\nspan = linspace(-3,3,10);\n[x,y,z] = meshgrid(span,span,span);\nplane_points = v * x(:)';\nfigure;\nscatter3(plane_points(1,:), plane_points(2,:), plane_points(3,:),'MarkerFaceColor','r');\nhold on;\nquiver3(0,0,0,v(1),v(2),v(3),'b');\nxlabel('x');\nylabel('y');\nzlabel('z');\ntitle('Span of (1,2,3) in R^3');\naxis equal;\ngrid on;\nhold off;\n[05/04/2024 13:20] Diddy (Casteist): v1=[1;2;3];\nv2=[-1;-2;-3];",
+        "chunk_id": "LLAMA-033"
       },
       {
         "rank": 3,
-        "score": -0.06872493028640747,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.46052050590515137,
+        "chunk_text": "2;3];\nv2=[-1;-2;-3];\nspan=linspace(-3,3,10);\n[X,Y]=meshgrid(span,span);\nplane_points=v1*X(:)'+v2*Y(:)';\nfigure;\nscatter3(plane_points(1,:),plane_points(2,:),plane_points(3,:),'r','MarkerFaceColor','r');\nhold on;\nquiver3(0,0,0,v1(1),v1(2),v1(3),'b');\nquiver3(0,0,0,v2(1),v2(2),v2(3),'b');\nxlabel('X');\nylabel('Y');\nzlabel('Z');\ntitle('Span of {(1,2,3),(-1,-2,-3)} in R^3');\naxis equal;\ngrid on;\nhold off;\n[05/04/2024 13:31] Sai Dinesh: v1 =[0;0;0];\nspan=linspace(-3, 3, 100);",
+        "chunk_id": "LLAMA-034"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "hit",
     "notes": "Tests retrieval of back-to-back multi-line code snippets from two different speakers on the same topic."
   },
@@ -230,21 +262,28 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "Yes, on 06/05/2024 at 02:06, Nikhil asked 'Did u play valo?' and followed up asking to be texted when playing comp.",
     "source_text_snippet": "Did u play valo?",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.3708566129207611,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.5155220031738281,
+        "chunk_text": "[06/05/2024 02:05] Nikhil: Ha\n[06/05/2024 02:05] Sai Dinesh: Morning I'll send\n[06/05/2024 02:05] Sai Dinesh: Now all are sleeping\n[06/05/2024 02:05] Nikhil: Okkkk\n[06/05/2024 02:06] Nikhil: Okay\n[06/05/2024 02:06] Nikhil: Did u play valo?",
+        "chunk_id": "LLAMA-014"
       },
       {
         "rank": 2,
-        "score": 0.208089679479599,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "LLAMA-001"
+        "score": 0.3607082664966583,
+        "chunk_text": "gle/H3GEjiwEfkjvs5Av7\n[10/03/2024 17:57] Sai Dinesh: Fill this form for tomorrow contest\n[17/03/2024 21:40] Nikhil: \n[17/03/2024 22:18] Nikhil: \n[27/03/2024 14:40] Sai Dinesh: https://docs.google.com/forms/d/e/1FAIpQLSdX0sa-ENM5QgFrBshunAF6BR8PMv12OT4wW8cUaoq0b7GV0g/viewform?usp=sf_link\n[27/03/2024 14:40] Sai Dinesh: fill this form\n[27/03/2024 14:44] Sai Dinesh: for the matches\n[27/03/2024 15:30] Nikhil: Enough\n[27/03/2024 15:31] Sai Dinesh: yes\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and",
+        "chunk_id": "LLAMA-009"
+      },
+      {
+        "rank": 3,
+        "score": 0.3470779061317444,
+        "chunk_text": "[15/09/2025 22:29] Sai Dinesh: Laptop updsting\n[15/09/2025 22:29] Sai Dinesh: Updating\"\n[15/09/2025 22:29] Nikhil: Good Job\n[15/09/2025 22:30] Nikhil: Fine i will crate one and use it\n[15/09/2025 22:31] Sai Dinesh: NO\nI will SEND IT TO YOU\n[15/09/2025 22:31] Nikhil: Die\n[15/09/2025 22:33] Sai Dinesh: sl.u.AF9Qmpjc9nkRfrO9UnL-H7Id2a3AzCOf2J0vFx7VQeImJxD9YqJfZYBVbiZ-WhWcvN2fcRsy_VMfGrxBsf7qYEkZcMh_4jOkhswelQm",
+        "chunk_id": "LLAMA-112"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests handling of informal abbreviation ('valo' for Valorant) in retrieval."
   },
@@ -255,21 +294,28 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 27/03/2024, Nikhil mentioned looking at Pranav's Valorant ID and tag, and a tag ('joseannan#7039') was shared shortly after.",
     "source_text_snippet": "Look pranav's valo I'd and tag",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.1506592184305191,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.2820693850517273,
+        "chunk_text": "https://aseam.acm.org/tcm/leave_form.php\n[29/04/2024 11:03] Sai Dinesh: I have ur id card\n[29/04/2024 11:33] Nikhil: Okay\n[29/04/2024 11:33] Nikhil: Keep it with u I will collect later\n[29/04/2024 11:33] Sai Dinesh: Nuh uh\n[06/05/2024 02:04] Nikhil: send the source code\n[06/05/2024 02:05] Sai Dinesh: The one I wrote ah?",
+        "chunk_id": "LLAMA-013"
       },
       {
         "rank": 2,
-        "score": 0.08259394764900208,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "LLAMA-001"
+        "score": 0.24399571120738983,
+        "chunk_text": "15:31] Sai Dinesh: yes\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tah\n[27/03/2024 15:31] Nikhil: Tag*\n[27/03/2024 15:33] Sai Dinesh: joseannan#7039\n[27/03/2024 15:33] Nikhil: Not this pranav\n[27/03/2024 15:33] Sai Dinesh: Nightwolf#6687\n[27/03/2024 15:33] Sai Dinesh: oh\n[27/03/2024 15:33] Nikhil: Our pranav for substitute\n[27/03/2024 15:34] Nikhil: And Sailesh\n[27/03/2024 15:34] Sai Dinesh: pranavV#5429\n[27/03/2024 15:34] Sai Dinesh: hyper or wriomain?",
+        "chunk_id": "LLAMA-010"
+      },
+      {
+        "rank": 3,
+        "score": 0.24224182963371277,
+        "chunk_text": "google.com/presentation/d/1VhdqMqBFr1galtv6NPKs4nbjI-sJLoPFvSoUSCnEFfg/edit?usp=sharing\n[07/09/2025 22:10] Nikhil: the new one not the current one\n[07/09/2025 22:14] Nikhil: Not now da\n[07/09/2025 22:30] Nikhil: 1. Student Login (SSO)\n→ Seamless entry using college ID / DigiLocker\n2. Digital Student Profile Created\n→ A single lifelong record for achievements\n3. Upload Certificates & Projects\n→ Students add academic + extra-curricular activities\n4. AI Upload & Secure Storage\n→ OCR+NLP extracts details, stored as tamper-proof record\n5. Faculty/Admin Verification\n→ Teachers validate records for authenticity\n6. Smart Achievement Summaries (GenAI)\n→ AI creates short descriptions of uploaded activities\n7. Dynamic Student Score (New CGPA)\n→ Holistic Score Index (HSI) combines academics + skills + activities\n8.",
+        "chunk_id": "LLAMA-107"
       }
     ],
+    "auto_score": "partial",
     "manual_score": "hit",
     "notes": "Tests whether a short message with a typo ('I'd' for 'ID') and its correction ('Tag*') a moment later are both retrieved as part of the same context."
   },
@@ -280,22 +326,29 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 10/10/2023, Nikhil shared a Flipkart link for an Acer Aspire 7 (2023) laptop with Core i5 12th Gen, 16GB RAM, 512GB SSD, and an RTX 3050 GPU.",
     "source_text_snippet": "Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H...",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.4207921028137207,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.4918125867843628,
+        "chunk_text": "[15/09/2025 22:29] Sai Dinesh: Laptop updsting\n[15/09/2025 22:29] Sai Dinesh: Updating\"\n[15/09/2025 22:29] Nikhil: Good Job\n[15/09/2025 22:30] Nikhil: Fine i will crate one and use it\n[15/09/2025 22:31] Sai Dinesh: NO\nI will SEND IT TO YOU\n[15/09/2025 22:31] Nikhil: Die\n[15/09/2025 22:33] Sai Dinesh: sl.u.AF9Qmpjc9nkRfrO9UnL-H7Id2a3AzCOf2J0vFx7VQeImJxD9YqJfZYBVbiZ-WhWcvN2fcRsy_VMfGrxBsf7qYEkZcMh_4jOkhswelQm",
+        "chunk_id": "LLAMA-112"
       },
       {
         "rank": 2,
-        "score": 0.13423529267311096,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
+        "score": 0.3797960877418518,
+        "chunk_text": "com/invite?id=EZ66N6\n[05/10/2023 18:55] Nikhil: I got 30.877s in Seesaw Road. Check out how fast you can go: https://playhcr.com/challenge?id=ymZXXeo\n[06/10/2023 14:43] Nikhil: https://blrbi0s.ctf.eng.run/dashboard\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) A715-76G Gaming Laptop on Flipkart\nhttps://dl.flipkart.com/s/SopsLyuuuN\n[13/10/2023 00:28] Sai Dinesh: https://icpc.",
         "chunk_id": "LLAMA-001"
+      },
+      {
+        "rank": 3,
+        "score": 0.3703049123287201,
+        "chunk_text": "the lab\n[14/05/2026 12:00] Nikhil: Okay\n[16/05/2026 02:13] Sai Dinesh: i am giving voice over on dd's vid\n[16/05/2026 09:25] Nikhil: Send that video\n[16/05/2026 10:30] Sai Dinesh: I will send one drive link with my video on it\nCrop off\n[16/05/2026 10:31] Sai Dinesh: https://amritauniv-my.sharepoint.",
+        "chunk_id": "LLAMA-191"
       }
     ],
-    "manual_score": "partial",
+    "auto_score": "partial",
+    "manual_score": "miss",
     "notes": "Tests retrieval of a long single-line product recommendation message."
   },
   {
@@ -305,22 +358,29 @@
     "question_type": "who-said-what",
     "ground_truth_answer": "No — this request was actually made in the Yaoi Man chat, not the Nikhil chat. On 30/05/2025, the message 'Check if ollama is installed in the systems' was sent to Yaoi Man.",
     "source_text_snippet": "Check if ollama is installed in the systems",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.19722998142242432,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.3065689504146576,
+        "chunk_text": "[15/09/2025 22:29] Sai Dinesh: Laptop updsting\n[15/09/2025 22:29] Sai Dinesh: Updating\"\n[15/09/2025 22:29] Nikhil: Good Job\n[15/09/2025 22:30] Nikhil: Fine i will crate one and use it\n[15/09/2025 22:31] Sai Dinesh: NO\nI will SEND IT TO YOU\n[15/09/2025 22:31] Nikhil: Die\n[15/09/2025 22:33] Sai Dinesh: sl.u.AF9Qmpjc9nkRfrO9UnL-H7Id2a3AzCOf2J0vFx7VQeImJxD9YqJfZYBVbiZ-WhWcvN2fcRsy_VMfGrxBsf7qYEkZcMh_4jOkhswelQm",
+        "chunk_id": "LLAMA-112"
       },
       {
         "rank": 2,
-        "score": 0.09827420115470886,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "LLAMA-001"
+        "score": 0.29794740676879883,
+        "chunk_text": "[09/05/2024 10:23] Sai Dinesh: u didn't do services right?\n[09/05/2024 10:55] Nikhil: No\n[09/05/2024 10:56] Sai Dinesh: ok\n[09/05/2024 12:39] Nikhil: Rey aa popular vehicles section evaru chesaru?\n[09/05/2024 12:40] Sai Dinesh: david\n[09/05/2024 12:40] Sai Dinesh: why any issue?",
+        "chunk_id": "LLAMA-031"
+      },
+      {
+        "rank": 3,
+        "score": 0.28416556119918823,
+        "chunk_text": "[01/05/2026 13:31] Nikhil: No\n[01/05/2026 13:31] Sai Dinesh: When are you coming\n[01/05/2026 13:34] Nikhil: Dont know\n[02/05/2026 15:37] Sai Dinesh: The embedded thing\nCan you send the code and the components used\nBased on that I'll finish off the report\n[02/05/2026 15:39] Nikhil: Vokay\n[02/05/2026 16:25] Nikhil: #include <Wire.h>\n#include <Adafruit_MPU6050.h>\n#include <Adafruit_Sensor.h>\nAdafruit_MPU6050 mpu;\n// Variables for Calculus (Integrating Gyro to get Yaw)\nunsigned long lastTime = 0;\nfloat yawAngle = 0.0;\nvoid setup(void) {\n  Serial1.begin(115200);\n  delay(1000); \n  if (!mpu.begin()) {\n    while (1) { delay(10);",
+        "chunk_id": "LLAMA-183"
       }
     ],
-    "manual_score": "miss",
+    "auto_score": "miss",
+    "manual_score": "hit",
     "notes": "Deliberate cross-chat confusion test: the question NAMES Nikhil, but the correct answer is that this never happened in the Nikhil chat at all — it happened in a different chat. Checks whether retrieval correctly scopes to the named chat and doesn't wrongly pull in content from a different chat just because it's topically similar."
   },
   {
@@ -330,27 +390,28 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of a trip to Goa found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.11068732291460037,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.3465256989002228,
+        "chunk_text": "[10/07/2026 09:34] Sai Dinesh: Nope\n[10/07/2026 09:34] Sai Dinesh: Where are you?\n[10/07/2026 09:43] Sai Dinesh: Ayo\n[10/07/2026 09:46] Diddy (Casteist): last row\n[10/07/2026 09:47] Sai Dinesh: Project when discuss?",
+        "chunk_id": "LLAMA-705"
       },
       {
         "rank": 2,
-        "score": 0.08040781319141388,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.3269963264465332,
+        "chunk_text": "[17/08/2025 21:38] Sai Dinesh: Did something happen?\n[17/08/2025 21:43] Diddy (Casteist): Antha baane undi\n[17/08/2025 21:54] Sai Dinesh: Ok\n[18/08/2025 01:04] Diddy (Casteist): Proxy for me and nikhil\n[18/08/2025 10:07] Sai Dinesh: Will you come today or stay at the hospital?\n[18/08/2025 10:27] Diddy (Casteist): Will come\n[18/08/2025 10:27] Diddy (Casteist): I will tell you once I come back to hostel.",
+        "chunk_id": "LLAMA-431"
       },
       {
         "rank": 3,
-        "score": -0.020281225442886353,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.32067859172821045,
+        "chunk_text": "16:52] Sai Dinesh: Acha ok\n[07/06/2026 16:52] Diddy (Casteist): Did you submit paper for scrutiny\n[07/06/2026 16:53] Sai Dinesh: To ma'am?",
+        "chunk_id": "LLAMA-678"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control for the Diddy chat."
   },
@@ -361,21 +422,28 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 05/11/2025 at 00:29, Nikhil shared a Canva templates link.",
     "source_text_snippet": "https://www.canva.com/templates/EAGp8a-91Xk/",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.35368072986602783,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "LLAMA-001"
+        "score": 0.5664716362953186,
+        "chunk_text": "canva.com/templates/EAGn_gmAbM8/\n[05/11/2025 00:31] Nikhil: https://www.canva.com/templates/EAGsBxYnRX8/\n[05/11/2025 00:36] Sai Dinesh: https://www.canva.com/templates/EAGuO7tMsaI-blue-and-white-modern-futuristic-cyber-security-presentation/\n[05/11/2025 00:36] Nikhil: https://www.canva.com/templates/EAGiiPWs9k4-red-and-black-futuristic-cyber-security-presentation/\n[05/11/2025 00:37] Nikhil: This also good\n[05/11/2025 00:37] Nikhil: Choose one\n[05/11/2025 00:38] Sai Dinesh: font conchem weird ga undi kaada?",
+        "chunk_id": "LLAMA-151"
       },
       {
         "rank": 2,
-        "score": 0.17712675034999847,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.48656389117240906,
+        "chunk_text": "canva.com/design/DAG3eaNGljU/DM2EhjxOAQQAMoSu_Eyksw/edit?utm_content=DAG3eaNGljU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n[04/11/2025 23:59] Nikhil: https://www.canva.com/design/DAG3wqHGbGo/FVuM76DJfEnNMy6NIDSVfw/edit?utm_content=DAG3wqHGbGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton\n[05/11/2025 00:29] Nikhil: https://www.canva.com/templates/EAGbk5vXPvI/\n[05/11/2025 00:29] Nikhil: https://www.canva.com/templates/EAGp8a-91Xk/\n[05/11/2025 00:30] Nikhil: https://www.canva.com/templates/EAGn_gmAbM8/\n[05/11/2025 00:31] Nikhil: https://www.canva.",
+        "chunk_id": "LLAMA-150"
+      },
+      {
+        "rank": 3,
+        "score": 0.34821560978889465,
+        "chunk_text": "your vid\n[17/05/2026 12:55] Sai Dinesh: Send your models to me\n[17/05/2026 12:55] Sai Dinesh: I'll try ensemble evaluation\n[17/05/2026 12:55] Sai Dinesh: If it takes too much time on mine\n you can try on yours\n[17/05/2026 13:00] Nikhil: Waitttttt\n[17/05/2026 18:06] Sai Dinesh: https://amritauniv-my.sharepoint.com/:f:/g/personal/am_sc_u4cse23150_am_students_amrita_edu/IgCZ7Y0Y3VeiSYj13llAfibDASt1P9gUe0EGUqkntiB4NWY?e=fB4sJ0\n[17/05/2026 21:56] Sai Dinesh: https://canva.",
+        "chunk_id": "LLAMA-194"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests whether a bare URL-only message is retrieved correctly for a topical query (design templates)."
   },
@@ -386,21 +454,28 @@
     "question_type": "negative-control",
     "ground_truth_answer": "No mention of buying a car found in the chat history.",
     "source_text_snippet": null,
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 198,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.03660133481025696,
-        "chunk_text": "[10/10/2023 22:40] You: Looking for a good budget gaming laptop under 60k\n[10/10/2023 22:43] Nikhil: Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) on Flipkart https://dl.flipkart.com/s/sample_acer\n[10/10/2023 22:45] You: Specs look great for the price\n[27/03/2024 15:30] You: Whose account are we queuing with?\n[27/03/2024 15:31] Nikhil: Look pranav's valo I'd and tag\n[27/03/2024 15:31] Nikhil: joseannan#7039\n[27/03/2024 15:32] Nikhil: Tag*\n[06/05/2024 02:06] Nikhil: Did u play valo?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.2537463307380676,
+        "chunk_text": "[18/09/2025 14:04] Nikhil: When?\n[18/09/2025 14:04] Sai Dinesh: 3\n[18/09/2025 14:06] Nikhil: Nono\n[18/09/2025 14:07] Sai Dinesh: ohh\nok \nkeep burger ready as party\nyour kind friend,dinesh\n[18/09/2025 14:09] Nikhil: No money\n[18/09/2025 14:15] Sai Dinesh: its is ok my friend for all I would not ask you to treat us to something when you have achieved something. but ok I am shameless\nthreat when you have money\nonce again \nyour kinder friend\nsai Dinesh K\n[22/09/2025 11:14] Sai Dinesh: Can you explain chi merge and lof ?",
+        "chunk_id": "LLAMA-130"
       },
       {
         "rank": 2,
-        "score": 0.00921933725476265,
-        "chunk_text": "[06/05/2024 02:07] Nikhil: Text me when u play comp\n[06/05/2024 02:10] You: Was sleeping, let's play tomorrow\n[05/11/2025 00:25] You: Need a nice presentation template for project review\n[05/11/2025 00:29] Nikhil: Use this: https://www.canva.com/templates/EAGp8a-91Xk/ clean modern tech presentation\n[05/11/2025 00:32] You: Thanks Nikhil, will customize this",
-        "chunk_id": "LLAMA-001"
+        "score": 0.15649032592773438,
+        "chunk_text": "Nikhil: Dude\n[07/05/2024 18:38] Nikhil: What did u tell that david\n[07/05/2024 18:38] Nikhil: What is he talking abt css\n[07/05/2024 18:38] Nikhil: What did I do\n[07/05/2024 18:38] Sai Dinesh: I think he meant me\n[07/05/2024 18:38] Nikhil: Nvm\n[07/05/2024 18:39] Sai Dinesh: I asked him to do the icons and vehicle selection bit in the video\n[07/05/2024 18:39] Nikhil: It's ok I took the credit\n[07/05/2024 18:39] Nikhil: 😂\n[07/05/2024 18:39] Nikhil: Night valo mihir is also coming\n[07/05/2024 18:39] Sai Dinesh: 🥲\n[07/05/2024 18:39] Sai Dinesh:",
+        "chunk_id": "LLAMA-016"
+      },
+      {
+        "rank": 3,
+        "score": 0.15309825539588928,
+        "chunk_text": "[09/05/2024 10:23] Sai Dinesh: u didn't do services right?\n[09/05/2024 10:55] Nikhil: No\n[09/05/2024 10:56] Sai Dinesh: ok\n[09/05/2024 12:39] Nikhil: Rey aa popular vehicles section evaru chesaru?\n[09/05/2024 12:40] Sai Dinesh: david\n[09/05/2024 12:40] Sai Dinesh: why any issue?",
+        "chunk_id": "LLAMA-031"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Negative control for the Nikhil chat."
   },
@@ -411,27 +486,28 @@
     "question_type": "code-mixed",
     "ground_truth_answer": "Diddy said 'chesava' (Telugu, informal for 'did you do it?') on 23/08/2024 at 10:22 — a short check-in style message, likely following up on a task or assignment.",
     "source_text_snippet": "chesava",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.0972670316696167,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.3155466914176941,
+        "chunk_text": "[23/08/2024 10:21] Sai Dinesh: Haa\n[23/08/2024 10:22] Diddy (Casteist): jitin gadiki two places cheppa\nedoti fix chey ani\n[23/08/2024 10:22] Diddy (Casteist): chesava\n[23/08/2024 10:22] Sai Dinesh: Naaku edi ayna parledu\n[23/08/2024 10:23] Diddy (Casteist): poni oka pani chey\n[23/08/2024 10:23] Diddy (Casteist): suicide chesukoni chachipo\n[23/08/2024 10:24] Sai Dinesh: Enduku man 🥲\n[23/08/2024 10:26] Diddy (Casteist): sarle\n[23/08/2024 10:26] Diddy (Casteist): sultan bazaar poyi, Gokul chat lo tinesi, koti tirigi podham?",
+        "chunk_id": "LLAMA-129"
       },
       {
         "rank": 2,
-        "score": 0.06717221438884735,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.30201026797294617,
+        "chunk_text": "[08/04/2025 01:14] Sai Dinesh: Kolkata vellaru anta edo meeting ki\n[08/04/2025 01:15] Diddy (Casteist): Ohh\n[08/04/2025 01:15] Diddy (Casteist): Emi chestunnav aithe mari...\n[08/04/2025 01:15] Sai Dinesh: Emi le ikkada ram navami chestunde so akkade enjoy chestunanu\n[08/04/2025 01:16] Diddy (Casteist): Abbo\n[09/04/2025 22:00] Diddy (Casteist): em baby chesestava enti <This message was edited>\n[09/04/2025 22:25] Sai Dinesh: Aksharam mukka radu naaku\n[09/04/2025 22:32] Diddy (Casteist): Chesi bokka ani na feeling\n[09/04/2025 22:32] Diddy (Casteist): Blockchain",
+        "chunk_id": "LLAMA-317"
       },
       {
         "rank": 3,
-        "score": -0.006684143096208572,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.2763349115848541,
+        "chunk_text": "aa tarvatha vachestha\n[18/05/2026 10:47] Diddy (Casteist): 1:30 ki kada presentation\n[18/05/2026 10:47] Diddy (Casteist): Can you send me ppt\n[18/05/2026 10:47] Diddy (Casteist): Prepare avtha\n[18/05/2026 10:54] Sai Dinesh: Inka cheyali\n[18/05/2026 10:55] Sai Dinesh: Adi cheyadanike ekkada ani adiganu\n[18/05/2026 10:55] Diddy (Casteist): Nen cheyyadam kashtame\n[18/05/2026 10:55] Diddy (Casteist): Vache sariki time aipothadi\n[18/05/2026 10:55] Diddy (Casteist): Nikhil and U do it\n[18/05/2026 10:56] Diddy (Casteist): Tarvatha send chey,",
+        "chunk_id": "LLAMA-671"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Tests retrieval when both the query AND the target message are in code-mixed/Telugu-English text. Important: verify actual surrounding context before finalizing this answer, as 'chesava' alone is ambiguous without more context."
   },
@@ -442,21 +518,28 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "On 04/06/2026, there was a mention of having 'speed stickers' in what appears to be a racing/game context.",
     "source_text_snippet": "Dam you have the speed stickers",
-    "num_chunks_in_chat": 2,
+    "num_chunks_in_chat": 625,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.4468131363391876,
-        "chunk_text": "[17/03/2024 13:10] You: Are you free for gaming today?\n[17/03/2024 13:14] Yaoi Man: Join me on Brawl Stars https://link.brawlstars.com/invite/friend/sample_token_yaoi\n[17/03/2024 13:15] You: Downloading now\n[30/03/2024 19:25] You: Hey man, stuck on the physics numericals\n[30/03/2024 19:27] You: Bro can u send physics assignment answers?\n[30/03/2024 19:35] Yaoi Man: Check your email, sent the PDF notes\n[15/04/2024 15:05] You: Did you write the Payable interface for lab?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.6439024209976196,
+        "chunk_text": "11:46] Yaoi Man: Only 2 left 🤧\n[04/06/2026 11:46] Sai Dinesh: Yes I am sad\nI will kill the rest\n[04/06/2026 11:47] Yaoi Man: Me after all sigieon pex are ded\n[04/06/2026 11:47] Sai Dinesh: Dam you have the speed stickers\n[04/06/2026 15:35] Yaoi Man: https://youtu.",
+        "chunk_id": "LLAMA-409"
       },
       {
         "rank": 2,
-        "score": 0.3608517348766327,
-        "chunk_text": "[15/04/2024 15:08] Yaoi Man: package labsheet6;\npublic interface Payable {\n    double getPaymentAmount();\n}\nclass Invoice implements Payable {\n    private String partNumber;\n    public Invoice(String part) { this.partNumber = part; }\n    public double getPaymentAmount() { return 150.0; }\n}\n[15/04/2024 15:10] You: Thanks a lot, compiling it now\n[30/05/2025 09:20] You: Heading to the lab now\n[30/05/2025 09:24] You: Check if ollama is installed in the systems\n[30/05/2025 09:28] Yaoi Man: Checking now, yes ollama 0.1.32 is installed on terminal 4\n[04/06/2026 11:45] You: Check my car in Asphalt\n[04/06/2026 11:47] Yaoi Man: Dam you have the speed stickers! Looks insane\n[04/06/2026 11:50] You: Took 2 hours to unlock haha",
-        "chunk_id": "LLAMA-001"
+        "score": 0.5769140720367432,
+        "chunk_text": "[14/03/2026 13:20] Sai Dinesh: Less go\n[14/03/2026 13:20] Yaoi Man: Nallabhoomi\n[14/03/2026 13:21] Sai Dinesh: Ok\nI'll go order the cakes rhen\n[14/03/2026 13:21] Yaoi Man: Sidharth party\n[14/03/2026 13:21] Yaoi Man: Sure\n[14/03/2026 13:32] Yaoi Man: They fixed his car 😐\n[14/03/2026 13:32] Yaoi Man: And it's 12 merc 34 ferrari\n[14/03/2026 13:33] Yaoi Man: Asusual\n[14/03/2026 13:33] Sai Dinesh: They be we working like god's out there\n[14/03/2026 13:33] Yaoi Man: Kimi pole\n[14/03/2026 13:33] Sai Dinesh: Yeah I",
+        "chunk_id": "LLAMA-313"
+      },
+      {
+        "rank": 3,
+        "score": 0.564983606338501,
+        "chunk_text": "Man: I Just checked were past the login window time\n[29/09/2025 20:42] Yaoi Man: *Eligible students will receive the test link. Those who aren't eligible won't receive it*\n[29/09/2025 20:42] Yaoi Man: 💀\n[29/09/2025 20:43] Sai Dinesh: Yeah figures\n[29/09/2025 20:43] Yaoi Man: I mean\n[29/09/2025 20:43] Yaoi Man: She could've said something different\n[29/09/2025 20:43] Yaoi Man: That's too blank\n[29/09/2025 20:44] Sai Dinesh: I mean the company will also say the same thing\n[29/09/2025 20:44] Yaoi Man: This sticker is irrelevant dino bhai 💀\n[29/09/2025 20:45] Sai Dinesh: I spread love\n[08/10/2025 21:06] Yaoi Man: https://act.",
+        "chunk_id": "LLAMA-152"
       }
     ],
+    "auto_score": "hit",
     "manual_score": "hit",
     "notes": "Casual/slang-heavy message — tests retrieval robustness on very informal phrasing."
   },
@@ -467,28 +550,29 @@
     "question_type": "factual-recall",
     "ground_truth_answer": "Yes, on 10/12/2024, Diddy mentioned a half-mark increase ('1/2 mark is increased ra').",
     "source_text_snippet": "1/2  mark  is  increased  ra",
-    "num_chunks_in_chat": 3,
+    "num_chunks_in_chat": 743,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "score": 0.21158382296562195,
-        "chunk_text": "[06/11/2024 20:47] Diddy: binary search | linear search | bubble sort | merge sort | selection sort | insertion srt\n[06/11/2024 20:50] You: Thanks, revising merge sort now\n[12/11/2024 13:25] Diddy: Guys remember registration fees\n[12/11/2024 13:29] You: Last day for payment today 8:00pm\n[12/11/2024 13:30] Diddy: Pay before 8 then\n[13/11/2024 00:36] Diddy: Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community! Applications open now for 1st and 2nd year students.\n[13/11/2024 00:40] You: Awesome opportunity, applying tomorrow\n[10/12/2024 10:14] You: Did ma'am recheck your evaluation?",
-        "chunk_id": "LLAMA-001"
+        "score": 0.4918588399887085,
+        "chunk_text": "Our project overall went very well, and we have also updated the final paper with improvements. If possible, could you please reconsider the marks or let us know if anything specific needs correction?\nIf you give us a time slot, we would be happy to come and show the updated paper, especially if there are any changes needed to make it suitable for publication.\nThank you, ma’am.",
+        "chunk_id": "LLAMA-538"
       },
       {
         "rank": 2,
-        "score": 0.1858922243118286,
-        "chunk_text": "[10/12/2024 10:16] Diddy: 1/2  mark  is  increased  ra\n[10/12/2024 10:18] You: Super, total 48 now",
-        "chunk_id": "LLAMA-002"
+        "score": 0.33610647916793823,
+        "chunk_text": "3,4,5,6\nwe can use them\nvery related to wht we did\n[07/12/2025 02:45] Sai Dinesh: 2 I am not able to view the paper\n7 I didn't even understand half the stuff in there\n[07/12/2025 02:45] Diddy (Casteist): So we need two more aa?\n[07/12/2025 14:29] Diddy (Casteist): .\n[07/12/2025 18:11] Diddy (Casteist): All changes mentioned are done,\nUpdate the methadology image and name it short and send the paper for review to ma'am. <This message was edited>\n[07/12/2025 18:24] Diddy (Casteist): Also ask if she looked into the project for any updation of marks...\n[07/12/2025 18:24] Diddy (Casteist): .",
+        "chunk_id": "LLAMA-542"
       },
       {
         "rank": 3,
-        "score": 0.0611083060503006,
-        "chunk_text": "[05/04/2024 13:15] You: How do we visualize plane equations in Matlab?\n[05/04/2024 13:20] Diddy: v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:); surf(x,y,z)\n[05/04/2024 13:22] You: Got it working with meshgrid, looks good\n[23/08/2024 10:20] You: Good morning ra\n[23/08/2024 10:22] Diddy: chesava\n[23/08/2024 10:25] You: inka ledu, doing it right now\n[06/11/2024 20:45] You: Which algorithms are coming for lab exam?",
-        "chunk_id": "LLAMA-000"
+        "score": 0.3284261226654053,
+        "chunk_text": "[27/06/2026 18:38] Sai Dinesh: Writing exam?\n[27/06/2026 18:41] Diddy (Casteist): When\n[27/06/2026 18:42] Sai Dinesh: Now\n[27/06/2026 18:48] Diddy (Casteist): Ok, writing\n[27/06/2026 19:57] Diddy (Casteist): Hey\n[27/06/2026 19:57] Diddy (Casteist): Got coding question?\n[27/06/2026 20:06] Sai Dinesh: Nope\n[27/06/2026 20:16] Sai Dinesh: Still in exam?",
+        "chunk_id": "LLAMA-699"
       }
     ],
-    "manual_score": "hit",
+    "auto_score": "miss",
+    "manual_score": "miss",
     "notes": "Tests retrieval of a short, spaced-out informal message about grades."
   }
 ]

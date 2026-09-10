@@ -56,6 +56,22 @@ def main():
         print("    python scripts/run_context_aware.py")
         return
 
+    # Guard: refuse to summarize anything that hasn't actually been manually scored.
+    # An empty "" manual_score means the human review step hasn't been done yet —
+    # silently treating it as "miss" would produce a misleading report.
+    any_unscored = False
+    for label, results in all_results.items():
+        unscored = [r["id"] for r in results if not r.get("manual_score")]
+        if unscored:
+            any_unscored = True
+            print(f"[!] {label}: {len(unscored)} question(s) not yet manually scored: {unscored}")
+    if any_unscored:
+        print("\n[!] Fill in \"manual_score\" (\"hit\" / \"partial\" / \"miss\") for every question in")
+        print("    every eval_results/results_*.json file before running this script.")
+        print("    Each result already has an \"auto_score\" field as a starting suggestion —")
+        print("    read the actual retrieved_chunks yourself and confirm or correct it.")
+        return
+
     print("\n" + "=" * 80)
     print("EMPIRICAL RETRIEVAL BENCHMARK: OVERALL SCORES")
     print("=" * 80)

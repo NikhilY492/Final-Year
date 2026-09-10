@@ -24,6 +24,8 @@ SYSTEM_PATTERNS = [
     re.compile(r"left\s*$", re.IGNORECASE),
     re.compile(r"created group", re.IGNORECASE),
     re.compile(r"changed the subject", re.IGNORECASE),
+    re.compile(r"^You deleted this message$", re.IGNORECASE),
+    re.compile(r"^This message was deleted$", re.IGNORECASE),
 ]
 
 MEDIA_OMITTED_PATTERN = re.compile(r"<Media omitted>", re.IGNORECASE)
@@ -113,18 +115,30 @@ def parse_whatsapp_chat(filepath: str, filter_system: bool = True) -> List[Messa
 
     if filter_system:
         records = [r for r in records if not r.is_system]
+        # Also drop messages that are PURELY a media placeholder (no other text).
+        # A message that mentions media alongside real text (e.g. a caption) is kept.
+        records = [
+            r for r in records
+            if not (r.has_media and MEDIA_OMITTED_PATTERN.sub("", r.text).strip() == "")
+        ]
 
     return records
 
 
 def _finalize_record(data: dict) -> MessageRecord:
     text = data["text"]
-    # Attempt unified ISO timestamp parse
     dt_str = f"{data['date']} {data['time']}"
-    iso_ts = dt_str  # fallback
-    for fmt in ("%d/%m/%Y, %H:%M", "%d/%m/%Y %H:%M", "%d/%m/%y, %H:%M", "%d/%m/%y %H:%M"):
+    iso_ts = dt_str  # fallback if nothing matches
+    formats = (
+        "%d/%m/%Y, %H:%M", "%d/%m/%Y %H:%M", "%d/%m/%y, %H:%M", "%d/%m/%y %H:%M",
+        # 12-hour AM/PM variants (both with and without a space before AM/PM,
+        # since different WhatsApp export locales format this differently)
+        "%d/%m/%Y, %I:%M %p", "%d/%m/%Y %I:%M %p", "%d/%m/%y, %I:%M %p", "%d/%m/%y %I:%M %p",
+        "%d/%m/%Y, %I:%M%p", "%d/%m/%Y %I:%M%p", "%d/%m/%y, %I:%M%p", "%d/%m/%y %I:%M%p",
+    )
+    for fmt in formats:
         try:
-            dt = datetime.strptime(dt_str.replace(" -", ""), fmt)
+            dt = datetime.strptime(dt_str, fmt)
             iso_ts = dt.isoformat()
             break
         except ValueError:
