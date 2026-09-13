@@ -2,13 +2,13 @@
 Build Real Data — one-time setup script
 -------------------------------------------
 Runs the repo's OWN parser and chunker modules (src/parser, src/chunking)
-on the three real chat exports, and saves the output into data/processed/
-in exactly the format the evaluation scripts expect.
+on EVERY .txt chat export found in data/raw_real/, and saves the output
+into data/processed/ in exactly the format the evaluation scripts expect.
 
-This replaces the fictional sample_chat.txt with real data, and produces
-BOTH the naive time-gap chunks (for run_naive_baseline.py) and confirms
-the parsed message files (used as fallback input by run_langchain.py,
-run_llamaindex.py, and run_context_aware.py).
+To add a new chat to the study: just drop its exported .txt file into
+data/raw_real/ and re-run this script. No code changes needed — the chat
+name used everywhere downstream (evaluation_set.json's "chat" field,
+output filenames, etc.) is just the filename without ".txt".
 
 Usage (run from the project root):
     python build_real_data.py
@@ -17,24 +17,36 @@ Usage (run from the project root):
 import json
 import sys
 import os
+import glob
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from src.parser.parse_whatsapp import parse_whatsapp_chat
 from src.chunking.chunk_messages import naive_time_gap_chunking, context_aware_chunking
 
-CHATS = {
-    "yaoi": "data/raw_real/yaoi.txt",
-    "diddy": "data/raw_real/diddy.txt",
-    "nikhil": "data/raw_real/nikhil.txt",
-}
-
+RAW_DIR = "data/raw_real"
+os.makedirs(RAW_DIR, exist_ok=True)
 os.makedirs("data/processed", exist_ok=True)
 
-for chat_name, filepath in CHATS.items():
+txt_files = sorted(glob.glob(os.path.join(RAW_DIR, "*.txt")))
+
+if not txt_files:
+    print(f"No .txt files found in {RAW_DIR}/ — drop your WhatsApp export(s) there and re-run.")
+    sys.exit(0)
+
+print(f"Found {len(txt_files)} chat file(s) in {RAW_DIR}/: "
+      f"{[os.path.basename(f) for f in txt_files]}\n")
+
+for filepath in txt_files:
+    chat_name = os.path.splitext(os.path.basename(filepath))[0]
     print(f"=== {chat_name} ===")
+
     records = parse_whatsapp_chat(filepath, filter_system=True)
     print(f"  Parsed {len(records)} real, cleaned messages")
+
+    if not records:
+        print(f"  [!] No messages parsed from {filepath} — check the export format. Skipping.\n")
+        continue
 
     parsed_out = f"data/processed/{chat_name}_parsed.json"
     with open(parsed_out, "w", encoding="utf-8") as f:
@@ -54,4 +66,6 @@ for chat_name, filepath in CHATS.items():
     print(f"  Saved: {ctx_out}  ({len(ctx_chunks)} context-aware chunks)")
     print()
 
-print("Done. Real data is now in data/processed/, ready for the evaluation scripts.")
+print(f"Done. Processed {len(txt_files)} chat(s). Real data is now in data/processed/,")
+print("ready for the evaluation scripts.")
+
